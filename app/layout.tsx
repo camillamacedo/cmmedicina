@@ -35,10 +35,6 @@ export const metadata: Metadata = {
     "certificados médicos",
     "recetas médicas",
     "CM Medicina",
-    "justificativa laboral"
-    "medico barato"
-    "consulta medica capital federal"
-"que medicacion tomar"
   ],
 
   authors: [
