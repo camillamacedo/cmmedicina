@@ -9,7 +9,7 @@ export default function Navbar() {
         <div className="flex items-center gap-3">
 
   <Image
-  src="/logo-cm.png.png"
+  src="/logo.png"
   alt="CM Medicina"
   width={55}
   height={55}
