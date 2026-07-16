@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Script from "next/script";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -194,21 +195,38 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: JSON.stringify(schema),
-          }}
-        />
 
-        <Navbar />
+  <Script
+    src="https://www.googletagmanager.com/gtag/js?id=G-LN466FXFX2"
+    strategy="afterInteractive"
+  />
 
-        <main className="flex-1 pt-24">
-          {children}
-        </main>
+  <Script id="google-analytics" strategy="afterInteractive">
+    {`
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-        <Footer />
-      </body>
+      gtag('config', 'G-LN466FXFX2');
+    `}
+  </Script>
+
+  <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify(schema),
+    }}
+  />
+
+  <Navbar />
+
+  <main className="flex-1 pt-24">
+    {children}
+  </main>
+
+  <Footer />
+
+</body>
     </html>
   );
 }
