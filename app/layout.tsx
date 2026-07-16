@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://cmmedicina.com"),
+ metadataBase: new URL("https://cmmedicina.com"),
 
   title: {
     default: "CM Medicina | Atención médica online",
