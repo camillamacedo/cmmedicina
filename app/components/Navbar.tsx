@@ -17,7 +17,7 @@ export default function Navbar() {
 
   <div>
     <h1 className="text-xl font-bold">
-      CM Medicina
+      Camilla Macedo
     </h1>
 
     <p className="text-xs text-gray-500">
