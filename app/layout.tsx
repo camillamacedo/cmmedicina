@@ -219,7 +219,6 @@ export default function RootLayout({
     __html: JSON.stringify(schema),
   }}
 />
-/{">"}
 
   <Navbar />
 
