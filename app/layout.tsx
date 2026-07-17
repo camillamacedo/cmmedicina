@@ -211,12 +211,14 @@ export default function RootLayout({
     `}
   </Script>
 
-  <script
-    type="application/ld+json"
-    dangerouslySetInnerHTML={{
-      __html: JSON.stringify(schema),
-    }}
-  />
+  <Script
+  id="schema-org"
+  type="application/ld+json"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify(schema),
+  }}
+/>
 
   <Navbar />
 
