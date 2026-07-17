@@ -62,7 +62,7 @@ export const metadata: Metadata = {
   },
 
   alternates: {
-    canonical: "https://www.cmmedicina.com",
+    canonical: "https://cmmedicina.com",
   },
 
   openGraph: {
