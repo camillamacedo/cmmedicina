@@ -211,7 +211,9 @@ export default function RootLayout({
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', 'G-LN466FXFX2');
+      gtag('config', 'G-LN466FXFX2', {
+  page_path: window.location.pathname,
+});
     `}
   </Script>
 
