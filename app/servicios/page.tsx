@@ -125,6 +125,25 @@ export default function Servicios() {
               médica y renovación de medicación según criterio profesional.
             </p>
           </div>
+          
+          {/* Médico de Cabecera */}
+
+<Link
+  href="/medico-de-cabecera"
+  className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
+>
+  <h2 className="relative inline-block text-2xl font-semibold">
+    Médico de Cabecera
+
+    <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
+  </h2>
+
+  <p className="mt-8 leading-7 text-gray-300">
+    Atención médica continua con seguimiento integral de tu salud,
+    control de enfermedades, prevención y acompañamiento personalizado
+    para pacientes de toda Argentina.
+  </p>
+</Link>
         </section>
 
         {/* CTA */}
