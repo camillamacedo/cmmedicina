@@ -217,7 +217,7 @@ export default function RootLayout({
     `}
   </Script>
 
-  <Script
+ <Script
   id="schema-org"
   type="application/ld+json"
   strategy="afterInteractive"
