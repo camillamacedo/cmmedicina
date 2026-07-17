@@ -119,7 +119,11 @@ export default function RootLayout({
     description:
       "Médica Clínica egresada de la Universidad de Buenos Aires (UBA). Atención médica online para pacientes de toda Argentina, con actuación en Clínica Médica y enfoque en Cardiología y Geriatría.",
 
-    medicalSpecialty: "GeneralPractice",
+  medicalSpecialty: [
+  "GeneralPractice",
+  "Cardiovascular",
+  "Geriatric"
+],
 
     areaServed: {
       "@type": "Country",
