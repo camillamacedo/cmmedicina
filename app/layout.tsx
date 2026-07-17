@@ -1,17 +1,12 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { inter} from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import Script from "next/script";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
 });
 
@@ -194,10 +189,10 @@ export default function RootLayout({
   };
 
   return (
-    <html
-      lang="es"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
+   <html
+  lang="es"
+  className={`${inter.variable} h-full antialiased`}
+>
       <body className="min-h-full flex flex-col">
 
   <Script
@@ -220,10 +215,10 @@ export default function RootLayout({
  <Script
   id="schema-org"
   type="application/ld+json"
-  strategy="afterInteractive"
   dangerouslySetInnerHTML={{
     __html: JSON.stringify(schema),
   }}
+/>
 />
 
   <Navbar />
