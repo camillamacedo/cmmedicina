@@ -109,22 +109,24 @@ export default function Servicios() {
 
           {/* Solicitud de Estudios */}
 
-          <Link
-            href="/solicitud-de-estudios"
-            className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
-          >
-            <h2 className="relative inline-block text-2xl font-semibold">
-              Solicitud de Estudios
+          {/* Solicitud de Estudios */}
 
-              <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-            </h2>
+<Link
+  href="/solicitud-examen"
+  className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
+>
+  <h2 className="relative inline-block text-2xl font-semibold">
+    Solicitud de Estudios / Examen
 
-            <p className="mt-8 leading-7 text-gray-300">
-              Evaluación médica y solicitud de estudios complementarios
-              cuando estén indicados.
-            </p>
-          </Link>
+    <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
+  </h2>
 
+  <p className="mt-8 leading-7 text-gray-300">
+    Solicitud de análisis de laboratorio, estudios por imágenes y otros
+    estudios complementarios cuando exista indicación médica, luego de una
+    evaluación clínica personalizada.
+  </p>
+</Link>
           {/* Apto Físico */}
 
           <Link
