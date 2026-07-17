@@ -67,7 +67,7 @@ export default function Servicios() {
           {/* Certificados */}
 
           <Link
-  href="/certificados-medicos"
+  href="/certificado-medico"
   className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
 >
   <h2 className="relative inline-block text-2xl font-semibold">
