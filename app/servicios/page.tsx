@@ -160,9 +160,7 @@ export default function Servicios() {
     Atención segura y personalizada.
   </p>
 
-  <div className="mt-6 text-sm font-medium text-white">
-    Solicitar atención →
-  </div>
+  
 </Link>
 
         </section>
