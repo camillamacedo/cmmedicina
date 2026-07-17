@@ -129,77 +129,59 @@ export default function Servicios() {
 </Link>
           {/* Apto Físico */}
 
-          <Link
-  href="/servicios/apto-fisico"
-  className="group rounded-3xl bg-black p-8 text-white transition hover:scale-[1.02]"
+<Link
+  href="/apto-fisico"
+  className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
 >
-  <h2 className="text-2xl font-semibold">
+  <h2 className="relative inline-block text-2xl font-semibold">
     Apto Físico
+
+    <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
   </h2>
 
-  <p className="mt-4 text-gray-300">
-    Evaluación médica para aptos deportivos, laborales y personales.
+  <p className="mt-8 leading-7 text-gray-300">
+    Evaluación médica para aptos deportivos, laborales y personales,
+    con valoración profesional y emisión del certificado correspondiente.
   </p>
-
-  <div className="mt-6 text-sm font-medium text-white">
-    Solicitar atención →
-  </div>
 </Link>
 
-          {/* Renovación de Recetas */}
 
-          <Link
+{/* Renovación de Receta Médica */}
+
+<Link
   href="/renovacion-de-receta"
-  className="group rounded-3xl bg-black p-8 text-white transition hover:scale-[1.02]"
+  className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
 >
-  <h2 className="text-2xl font-semibold">
+  <h2 className="relative inline-block text-2xl font-semibold">
     Renovación de Receta Médica
+
+    <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
   </h2>
 
-  <p className="mt-4 text-gray-300">
-    Renovación de tratamientos habituales mediante evaluación médica online.
-    Atención segura y personalizada.
+  <p className="mt-8 leading-7 text-gray-300">
+    Renovación de tratamientos habituales mediante evaluación médica online,
+    con seguimiento seguro y personalizado.
   </p>
-
-  
 </Link>
+
+
 {/* Consultorio */}
 
-          <Link
+<Link
   href="/consultorio"
-  className="group rounded-3xl bg-black p-8 text-white transition hover:scale-[1.02]"
+  className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
 >
-  <h2 className="text-2xl font-semibold">
+  <h2 className="relative inline-block text-2xl font-semibold">
     Consultorio
+
+    <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
   </h2>
 
-  <p className="mt-4 text-gray-300">
-    En la brevedad se actualizará la direccion del consultorio fisico.
+  <p className="mt-8 leading-7 text-gray-300">
+    Próximamente se actualizará la dirección del consultorio físico
+    para atención presencial.
   </p>
-
-  
 </Link>
-
-        </section>
-
-        {/* CTA */}
-
-        <section className="mt-20 rounded-3xl bg-gray-50 p-12 text-center">
-
-          <h2 className="text-3xl font-semibold text-gray-900">
-            ¿Necesitás atención médica?
-          </h2>
-
-          <p className="mt-4 text-gray-600">
-            Reservá tu consulta de manera rápida, segura y sencilla.
-          </p>
-
-          <Link
-            href="/reservar"
-            className="mt-8 inline-block rounded-full bg-black px-10 py-4 font-semibold text-white transition hover:bg-gray-800"
-          >
-            Reservar turno
-          </Link>
 
         </section>
 
