@@ -148,7 +148,7 @@ export default function Servicios() {
           {/* Renovación de Recetas */}
 
           <Link
-  href="/servicios/renovacion-de-receta"
+  href="/renovacion-de-receta"
   className="group rounded-3xl bg-black p-8 text-white transition hover:scale-[1.02]"
 >
   <h2 className="text-2xl font-semibold">
