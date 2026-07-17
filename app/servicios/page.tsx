@@ -163,6 +163,22 @@ export default function Servicios() {
 
   
 </Link>
+{/* Consultorio */}
+
+          <Link
+  href="/consultorio"
+  className="group rounded-3xl bg-black p-8 text-white transition hover:scale-[1.02]"
+>
+  <h2 className="text-2xl font-semibold">
+    en la brevedad
+  </h2>
+
+  <p className="mt-4 text-gray-300">
+    En la brevedad se actualizará la direccion del consultorio fisico.
+  </p>
+
+  
+</Link>
 
         </section>
 
