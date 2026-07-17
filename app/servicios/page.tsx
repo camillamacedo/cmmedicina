@@ -66,18 +66,20 @@ export default function Servicios() {
 
           {/* Certificados */}
 
-          <div className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl">
-            <h2 className="relative inline-block text-2xl font-semibold">
-              Certificados Médicos
+          <Link
+  href="/certificados-medicos"
+  className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
+>
+  <h2 className="relative inline-block text-2xl font-semibold">
+    Certificados Médicos
+    <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
+  </h2>
 
-              <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-            </h2>
-
-            <p className="mt-8 leading-7 text-gray-300">
-              Evaluación médica profesional para la emisión de certificados
-              médicos cuando exista indicación clínica.
-            </p>
-          </div>
+  <p className="mt-8 leading-7 text-gray-300">
+    Evaluación médica profesional para la emisión de certificados cuando exista
+    indicación clínica, mediante atención presencial o telemedicina según corresponda.
+  </p>
+</Link>
 
           {/* Apto físico */}
 
