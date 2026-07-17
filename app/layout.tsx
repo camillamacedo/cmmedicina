@@ -19,8 +19,8 @@ export const metadata: Metadata = {
  metadataBase: new URL("https://cmmedicina.com"),
 
   title: {
-    default: "CM Medicina | Atención médica online",
-    template: "%s | CM Medicina", Médico Virtual y Telemedicina en Argentina | Certificados Médicos | Dra. Camilla Macedo
+    default: "CM Medicina | Medico Virtual y Telemedicina en Argentina | Certificados Médicos | Dra. Camilla Macedo",
+    template: "%s | CM Medicina",
   },
 
   description:
