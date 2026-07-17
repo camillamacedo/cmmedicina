@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 
   title: {
     default: "CM Medicina | Atención médica online",
-    template: "%s | CM Medicina",
+    template: "%s | CM Medicina", Médico Virtual y Telemedicina en Argentina | Certificados Médicos | Dra. Camilla Macedo
   },
 
   description:
