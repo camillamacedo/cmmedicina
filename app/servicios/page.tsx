@@ -130,20 +130,21 @@ export default function Servicios() {
           {/* Apto Físico */}
 
           <Link
-            href="/apto-fisico"
-            className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
-          >
-            <h2 className="relative inline-block text-2xl font-semibold">
-              Apto Físico
+  href="/servicios/apto-fisico"
+  className="group rounded-3xl bg-black p-8 text-white transition hover:scale-[1.02]"
+>
+  <h2 className="text-2xl font-semibold">
+    Apto Físico
+  </h2>
 
-              <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-            </h2>
+  <p className="mt-4 text-gray-300">
+    Evaluación médica para aptos deportivos, laborales y personales.
+  </p>
 
-            <p className="mt-8 leading-7 text-gray-300">
-              Valoración médica orientada a actividades deportivas,
-              laborales, universitarias y requerimientos específicos.
-            </p>
-          </Link>
+  <div className="mt-6 text-sm font-medium text-white">
+    Solicitar atención →
+  </div>
+</Link>
 
           {/* Renovación de Recetas */}
 
