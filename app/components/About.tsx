@@ -109,16 +109,16 @@ export default function About() {
 
           {/* FRASE DESTACADA */}
 
-          <div className="mt-14 rounded-[32px] border border-neutral-200 bg-white px-10 py-8">
+          <div className="mt-12">
 
-            <p className="text-center text-2xl font-semibold tracking-tight text-neutral-900">
+  <div className="h-px w-12 bg-neutral-300"></div>
 
-              "Mi compromiso es ofrecer una medicina humana,
-              cercana y de excelencia."
+  <p className="mt-5 text-xl font-medium tracking-tight text-neutral-900">
+    Medicina de calidad,
+    estés donde estés.
+  </p>
 
-            </p>
-
-          </div>
+</div>
 
         </div>
 
