@@ -11,22 +11,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1,
     },
 
-
     {
       url: "https://cmmedicina.com/servicios",
       lastModified: new Date(),
       changeFrequency: "weekly",
       priority: 0.9,
     },
-
-
-    {
-      url: "https://cmmedicina.com/contacto",
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-
 
     {
       url: "https://cmmedicina.com/reservar",
@@ -35,6 +25,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
 
+    {
+      url: "https://cmmedicina.com/contacto",
+      lastModified: new Date(),
+      changeFrequency: "monthly",
+      priority: 0.8,
+    },
 
     {
       url: "https://cmmedicina.com/teleconsulta",
@@ -43,14 +39,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
 
-
     {
       url: "https://cmmedicina.com/medico-virtual",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
-
 
     {
       url: "https://cmmedicina.com/medico-de-cabecera",
@@ -59,22 +53,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
 
-
-    {
-      url: "https://cmmedicina.com/consulta-medica",
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.8,
-    },
-
-
     {
       url: "https://cmmedicina.com/certificado-medico",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
-
 
     {
       url: "https://cmmedicina.com/renovacion-de-receta",
@@ -83,7 +67,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
 
-
     {
       url: "https://cmmedicina.com/solicitud-examen",
       lastModified: new Date(),
@@ -91,22 +74,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
 
-
     {
       url: "https://cmmedicina.com/apto-fisico",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.8,
     },
-
-
-    {
-      url: "https://cmmedicina.com/consultorio",
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-
 
   ];
 
