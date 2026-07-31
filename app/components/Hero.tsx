@@ -10,8 +10,7 @@ export default function Home() {
 
       <section className="mx-auto max-w-7xl px-6 py-28">
 
-        <div className="grid items-center gap-20 lg:grid-cols-2">
-
+        <div className="grid items-center gap-12 lg:grid-cols-[1.1fr_0.9fr]">
 
           {/* TEXTO */}
 
@@ -79,38 +78,34 @@ export default function Home() {
 
           {/* LOGO */}
 
+<div className="flex justify-center">
 
-          <div className="flex justify-center">
+  <div
+    className="
+    flex
+    h-[320px]
+    w-[320px]
+    items-center
+    justify-center
+    rounded-full
+    border
+    border-neutral-200
+    bg-white
+    shadow-[0_20px_60px_rgba(0,0,0,.05)]
+    "
+  >
 
+    <Image
+      src="/logo.png"
+      alt="CM Medicina"
+      width={320}
+      height={320}
+      className="h-[70%] w-[70%] object-contain"
+    />
 
-            <div
-              className="
-              flex
-              h-[420px]
-              w-[420px]
-              items-center
-              justify-center
-              rounded-full
-              border
-              border-neutral-200
-              bg-white
-              shadow-[0_20px_60px_rgba(0,0,0,.05)]
-              "
-            >
+  </div>
 
-              <Image
-                src="/logo.png"
-                alt="CM Medicina"
-                width={420}
-                height={420}
-                className="h-[75%] w-[75%] object-contain"
-              />
-
-            </div>
-
-
-          </div>
-
+</div>
 
         </div>
 
