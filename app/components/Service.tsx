@@ -4,7 +4,7 @@ export default function Services() {
 
       <div className="mx-auto max-w-7xl px-6">
 
-        {/* TÍTULO */}
+        {/* HEADER */}
 
         <div className="text-center">
 
@@ -17,89 +17,85 @@ export default function Services() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-neutral-500">
-
             Consultas diseñadas para ofrecer una atención personalizada,
             segura y basada en evidencia científica.
-
           </p>
 
         </div>
 
-        {/* CARDS */}
+
+        {/* SERVICES GRID */}
 
         <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
 
-          {/* CARD */}
+
+          {/* CERTIFICADOS */}
 
           <div className="rounded-[32px] border border-neutral-200 bg-white p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
 
-            <div className="h-px w-12 bg-neutral-300"></div>
+            <div className="h-px w-12 bg-neutral-300" />
 
-            <h3 className="mt-8 text-2xl font-semibold">
+            <h3 className="mt-8 text-2xl font-semibold text-neutral-900">
               Certificados
             </h3>
 
             <p className="mt-5 leading-8 text-neutral-500">
-
               Emisión de certificados médicos luego de una evaluación profesional y personalizada.
-
             </p>
 
           </div>
 
-          {/* CARD */}
+
+          {/* CLINICA */}
 
           <div className="rounded-[32px] border border-neutral-200 bg-white p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
 
-            <div className="h-px w-12 bg-neutral-300"></div>
+            <div className="h-px w-12 bg-neutral-300" />
 
-            <h3 className="mt-8 text-2xl font-semibold">
+            <h3 className="mt-8 text-2xl font-semibold text-neutral-900">
               Clínica Médica
             </h3>
 
             <p className="mt-5 leading-8 text-neutral-500">
-
               Evaluación clínica integral, diagnóstico, tratamiento y seguimiento continuo.
-
             </p>
 
           </div>
 
-          {/* CARD */}
+
+          {/* CARDIOLOGIA */}
 
           <div className="rounded-[32px] border border-neutral-200 bg-white p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
 
-            <div className="h-px w-12 bg-neutral-300"></div>
+            <div className="h-px w-12 bg-neutral-300" />
 
-            <h3 className="mt-8 text-2xl font-semibold">
+            <h3 className="mt-8 text-2xl font-semibold text-neutral-900">
               Cardiología
             </h3>
 
             <p className="mt-5 leading-8 text-neutral-500">
-
-              Prevención, evaluación y seguimiento de los principales factores de riesgo cardiovascular.
-
+              Prevención, evaluación y seguimiento de factores de riesgo cardiovascular.
             </p>
 
           </div>
 
-          {/* CARD */}
+
+          {/* TELECONSULTA */}
 
           <div className="rounded-[32px] border border-neutral-200 bg-white p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
 
-            <div className="h-px w-12 bg-neutral-300"></div>
+            <div className="h-px w-12 bg-neutral-300" />
 
-            <h3 className="mt-8 text-2xl font-semibold">
+            <h3 className="mt-8 text-2xl font-semibold text-neutral-900">
               Teleconsulta
             </h3>
 
             <p className="mt-5 leading-8 text-neutral-500">
-
-              Consultas médicas online con la misma calidad, privacidad y cercanía que una atención presencial.
-
+              Consultas médicas online con privacidad, seguridad y cercanía desde cualquier lugar.
             </p>
 
           </div>
+
 
         </div>
 
