@@ -114,87 +114,65 @@ Solicitud enviada desde la página web de CM Medicina.
         </Link>
 
 
-        {/* COMO FUNCIONA */}
+        {/* CÓMO FUNCIONA */}
 
+<section className="mx-auto mt-6 max-w-3xl">
 
-        <section className="mx-auto mt-10 max-w-4xl">
+  <div
+    className="
+    rounded-2xl
+    border
+    border-gray-100
+    bg-white
+    px-4
+    py-3
+    shadow-sm
+    "
+  >
 
+    <div
+      className="
+      grid
+      grid-cols-2
+      gap-y-3
+      text-center
+      md:grid-cols-4
+      "
+    >
 
-          <div
-            className="
-            rounded-3xl
-            border
-            border-gray-100
-            bg-white
-            p-8
-            shadow-[0_20px_50px_rgba(0,0,0,0.05)]
-            "
-          >
+      <div>
+        <div className="text-base font-bold text-black">1</div>
+        <p className="text-xs text-gray-600">
+          Completá tus datos
+        </p>
+      </div>
 
+      <div>
+        <div className="text-base font-bold text-black">2</div>
+        <p className="text-xs text-gray-600">
+          Elegí fecha y horario
+        </p>
+      </div>
 
-            <h2 className="text-center text-2xl font-semibold text-gray-900">
-              ¿Cómo funciona?
-            </h2>
+      <div>
+        <div className="text-base font-bold text-black">3</div>
+        <p className="text-xs text-gray-600">
+          Recibí confirmación
+        </p>
+      </div>
 
+      <div>
+        <div className="text-base font-bold text-black">4</div>
+        <p className="text-xs text-gray-600">
+          Realizá tu consulta
+        </p>
+      </div>
 
+    </div>
 
-            <div
-              className="
-              mt-8
-              grid
-              gap-6
-              md:grid-cols-4
-              "
-            >
+  </div>
 
-              <div className="text-center">
-                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
-                  1
-                </div>
-                <p className="mt-3 text-sm text-gray-600">
-                  Completá tus datos
-                </p>
-              </div>
-
-
-              <div className="text-center">
-                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
-                  2
-                </div>
-                <p className="mt-3 text-sm text-gray-600">
-                  Elegí fecha y horario
-                </p>
-              </div>
-
-
-              <div className="text-center">
-                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
-                  3
-                </div>
-                <p className="mt-3 text-sm text-gray-600">
-                  Recibí confirmación
-                </p>
-              </div>
-
-
-              <div className="text-center">
-                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
-                  4
-                </div>
-                <p className="mt-3 text-sm text-gray-600">
-                  Realizá tu consulta
-                </p>
-              </div>
-
-
-            </div>
-
-
-          </div>
-
-
-        </section>
-
+</section>
                 {/* FORMULARIO */}
 
 
