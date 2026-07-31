@@ -2,127 +2,127 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <section className="bg-white py-24">
+    <section className="bg-white py-28">
 
-      <div className="mx-auto grid max-w-6xl items-center gap-16 px-6 md:grid-cols-2">
-
+      <div className="mx-auto grid max-w-7xl items-center gap-24 px-6 lg:grid-cols-2">
 
         {/* FOTO */}
 
         <div className="flex justify-center">
 
-          <div className="rounded-3xl bg-gray-100 p-3 shadow-xl">
+          <div className="overflow-hidden rounded-[36px] border border-neutral-200 bg-white shadow-[0_20px_60px_rgba(0,0,0,.05)]">
 
             <Image
               src="/dra-camilla-1.png"
-              alt="Dra. Camilla Macedo - CM Medicina"
-              width={420}
-              height={520}
-              className="rounded-3xl object-cover"
+              alt="Dra. Camilla Macedo"
+              width={480}
+              height={620}
+              className="object-cover"
             />
 
           </div>
 
         </div>
 
-
-
-
-
         {/* TEXTO */}
 
         <div>
 
-
-          <span className="text-sm font-semibold uppercase tracking-widest text-gray-500">
+          <span className="text-sm uppercase tracking-[0.30em] text-neutral-400">
             Sobre la Dra. Camilla Macedo
           </span>
 
+          <h2 className="mt-6 text-5xl font-semibold leading-tight tracking-tight text-neutral-900">
 
+            Una medicina cercana,
+            humana y basada en evidencia.
 
-
-
-          <h2 className="mt-4 text-4xl font-bold text-gray-900">
-            Medicina con excelencia, cercanía y compromiso
           </h2>
 
+          <p className="mt-8 text-lg leading-8 text-neutral-500">
 
-
-
-
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-
-            Médica egresada de la Universidad de Buenos Aires (UBA),
-            comprometida con brindar una atención médica de excelencia,
-            centrada en la persona y respaldada por la mejor evidencia
-            científica disponible.
+            Médica egresada de la <strong>Universidad de Buenos Aires (UBA)</strong>,
+            dedicada a brindar una atención médica personalizada, con un enfoque
+            integral y centrado en cada paciente.
 
           </p>
 
+          {/* BLOQUES */}
 
+          <div className="mt-12 space-y-8">
 
+            <div>
 
+              <h3 className="text-xl font-semibold text-neutral-900">
+                Atención personalizada
+              </h3>
 
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+              <div className="mt-3 h-px w-14 bg-neutral-200"></div>
 
-            Cada consulta se desarrolla en un espacio de escucha,
-            respeto y confidencialidad, donde las decisiones se toman
-            de manera personalizada, considerando las necesidades,
-            antecedentes y objetivos de cada paciente.
+              <p className="mt-5 leading-8 text-neutral-500">
 
-          </p>
+                Cada consulta se desarrolla con tiempo, escucha activa y respeto,
+                permitiendo comprender tu historia clínica, tus objetivos y tus
+                necesidades para ofrecer un tratamiento adaptado a vos.
 
+              </p>
 
+            </div>
 
+            <div>
 
+              <h3 className="text-xl font-semibold text-neutral-900">
+                Medicina basada en evidencia
+              </h3>
 
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+              <div className="mt-3 h-px w-14 bg-neutral-200"></div>
 
-            A través de la telemedicina, ofrezco un servicio accesible,
-            seguro y de alta calidad, permitiendo realizar consultas
-            médicas desde cualquier lugar, sin perder la cercanía ni
-            el vínculo médico-paciente.
+              <p className="mt-5 leading-8 text-neutral-500">
 
-          </p>
+                Todas las decisiones médicas se apoyan en la mejor evidencia
+                científica disponible, priorizando la seguridad, la prevención
+                y el bienestar integral del paciente.
 
+              </p>
 
+            </div>
 
+            <div>
 
+              <h3 className="text-xl font-semibold text-neutral-900">
+                Telemedicina segura
+              </h3>
 
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+              <div className="mt-3 h-px w-14 bg-neutral-200"></div>
 
-            Mi compromiso es acompañarte en cada etapa del cuidado
-            de tu salud con profesionalismo, claridad y un enfoque
-            integral orientado a la prevención, el diagnóstico y
-            el tratamiento.
+              <p className="mt-5 leading-8 text-neutral-500">
 
-          </p>
+                Consultas online con la misma calidad, privacidad y compromiso
+                que una atención presencial, para que puedas cuidar tu salud
+                desde cualquier lugar de Argentina.
 
+              </p>
 
+            </div>
 
-
-
-
+          </div>
 
           {/* FRASE DESTACADA */}
 
-          <div className="mt-10 w-full rounded-3xl bg-gray-50 px-8 py-6 text-center shadow-sm">
+          <div className="mt-14 rounded-[32px] border border-neutral-200 bg-white px-10 py-8">
 
-            <p className="text-xl font-semibold text-gray-800 sm:whitespace-nowrap">
+            <p className="text-center text-2xl font-semibold tracking-tight text-neutral-900">
 
-              📍Medicina de calidad, estés donde estés.
+              "Mi compromiso es ofrecer una medicina humana,
+              cercana y de excelencia."
 
             </p>
 
           </div>
 
-
-
         </div>
 
-
       </div>
-
 
     </section>
   );
