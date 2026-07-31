@@ -3,189 +3,178 @@ import Link from "next/link";
 export default function Servicios() {
   return (
     <main className="min-h-screen bg-white">
-      <div className="mx-auto max-w-6xl px-6 py-20">
+
+      <div className="mx-auto max-w-7xl px-6 py-20">
+
+
+        {/* VOLVER */}
 
         <Link
           href="/"
-          className="text-gray-500 transition hover:text-black"
+          className="text-sm text-neutral-400 transition hover:text-black"
         >
           ← Volver al inicio
         </Link>
 
+
         {/* HERO */}
 
-        <section className="mt-14 text-center">
+        <section className="mt-20 max-w-4xl">
 
-          <h1 className="mt-5 text-5xl font-bold text-gray-900">
-            Servicios Médicos Online
+          <span className="text-sm uppercase tracking-[0.30em] text-neutral-400">
+            Servicios médicos
+          </span>
+
+
+          <h1 className="mt-6 text-5xl font-semibold tracking-tight text-neutral-900">
+            Atención médica personalizada,
+            estés donde estés.
           </h1>
 
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
-            Servicios de medicina clínica mediante telemedicina para pacientes
-            de toda Argentina. Consultá con un médico virtual, obtené
-            certificados médicos, renová recetas, solicitá estudios y recibí
-            atención médica personalizada desde cualquier lugar del país.
+
+          <p className="mt-8 text-lg leading-8 text-neutral-500">
+
+            Servicios de medicina clínica mediante telemedicina
+            para pacientes de toda Argentina, con atención segura,
+            profesional y basada en evidencia científica.
+
           </p>
 
         </section>
 
+
+
         {/* SERVICIOS */}
 
-        <section className="mt-16 grid gap-8 md:grid-cols-2">
-
-          {/* Médico Virtual */}
-
-          <Link
-            href="/medico-virtual"
-            className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
-          >
-            <h2 className="relative inline-block text-2xl font-semibold">
-              Médico Virtual
-
-              <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-            </h2>
-
-            <p className="mt-8 leading-7 text-gray-300">
-              Consultá con un médico virtual mediante telemedicina desde
-              cualquier lugar de Argentina. Atención médica segura,
-              profesional y personalizada.
-            </p>
-          </Link>
-
-          {/* Médico de Cabecera */}
-
-          <Link
-            href="/medico-de-cabecera"
-            className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
-          >
-            <h2 className="relative inline-block text-2xl font-semibold">
-              Médico de Cabecera
-
-              <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-            </h2>
-
-            <p className="mt-8 leading-7 text-gray-300">
-              Atención médica continua con seguimiento integral de tu salud,
-              prevención de enfermedades, control de patologías crónicas y
-              acompañamiento personalizado.
-            </p>
-          </Link>
-
-          {/* Consulta Médica */}
-
-          <Link
-            href="/consulta-medica"
-            className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
-          >
-            <h2 className="relative inline-block text-2xl font-semibold">
-              Consulta Médica
-
-              <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-            </h2>
-
-            <p className="mt-8 leading-7 text-gray-300">
-              Evaluación clínica personalizada, orientación médica y
-              seguimiento integral según las necesidades de cada paciente.
-            </p>
-          </Link>
-
-          {/* Certificados Médicos */}
-
-          <Link
-            href="/certificado-medico"
-            className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
-          >
-            <h2 className="relative inline-block text-2xl font-semibold">
-              Certificados Médicos
-
-              <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-            </h2>
-
-            <p className="mt-8 leading-7 text-gray-300">
-              Evaluación médica profesional para la emisión de certificados
-              cuando exista indicación clínica.
-            </p>
-          </Link>
-
-          {/* Solicitud de Estudios */}
-
-          {/* Solicitud de Estudios */}
-
-<Link
-  href="/solicitud-examen"
-  className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
->
-  <h2 className="relative inline-block text-2xl font-semibold">
-    Solicitud de Estudios / Examen
-
-    <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-  </h2>
-
-  <p className="mt-8 leading-7 text-gray-300">
-    Solicitud de análisis de laboratorio, estudios por imágenes y otros
-    estudios complementarios cuando exista indicación médica, luego de una
-    evaluación clínica personalizada.
-  </p>
-</Link>
-          {/* Apto Físico */}
-
-<Link
-  href="/apto-fisico"
-  className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
->
-  <h2 className="relative inline-block text-2xl font-semibold">
-    Apto Físico
-
-    <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-  </h2>
-
-  <p className="mt-8 leading-7 text-gray-300">
-    Evaluación médica para aptos deportivos, laborales y personales,
-    con valoración profesional y emisión del certificado correspondiente.
-  </p>
-</Link>
+        <section className="mt-20 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
 
 
-{/* Renovación de Receta Médica */}
+          {[
+            {
+              title: "Médico Virtual",
+              text: "Consultas médicas online con atención personalizada, segura y profesional.",
+              href: "/medico-virtual",
+            },
+            {
+              title: "Médico de Cabecera",
+              text: "Seguimiento integral de tu salud, prevención y acompañamiento continuo.",
+              href: "/medico-de-cabecera",
+            },
+            {
+              title: "Consulta Médica",
+              text: "Evaluación clínica, orientación médica y seguimiento personalizado.",
+              href: "/consulta-medica",
+            },
+            {
+              title: "Certificados Médicos",
+              text: "Evaluación profesional para emisión de certificados cuando corresponda.",
+              href: "/certificado-medico",
+            },
+            {
+              title: "Solicitud de Estudios",
+              text: "Indicación de análisis, imágenes y estudios complementarios según evaluación médica.",
+              href: "/solicitud-examen",
+            },
+            {
+              title: "Apto Físico",
+              text: "Evaluación médica para actividades deportivas, laborales y personales.",
+              href: "/apto-fisico",
+            },
+            {
+              title: "Renovación de Recetas",
+              text: "Seguimiento de tratamientos habituales mediante evaluación médica.",
+              href: "/renovacion-de-receta",
+            },
+            {
+              title: "Consultorio",
+              text: "Próximamente información sobre atención presencial.",
+              href: "/consultorio",
+            },
+          ].map((service) => (
 
-<Link
-  href="/renovacion-de-receta"
-  className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
->
-  <h2 className="relative inline-block text-2xl font-semibold">
-    Renovación de Receta Médica
+            <Link
+              key={service.title}
+              href={service.href}
+              className="
+              group
+              rounded-[28px]
+              border
+              border-neutral-200
+              bg-white
+              p-8
+              transition
+              duration-300
+              hover:-translate-y-1
+              hover:border-neutral-400
+              hover:shadow-lg
+              "
+            >
 
-    <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-  </h2>
-
-  <p className="mt-8 leading-7 text-gray-300">
-    Renovación de tratamientos habituales mediante evaluación médica online,
-    con seguimiento seguro y personalizado.
-  </p>
-</Link>
+              <span className="text-xs uppercase tracking-[0.25em] text-neutral-400">
+                CM Medicina
+              </span>
 
 
-{/* Consultorio */}
+              <h2 className="mt-6 text-2xl font-semibold text-neutral-900">
+                {service.title}
+              </h2>
 
-<Link
-  href="/consultorio"
-  className="rounded-3xl bg-black p-10 text-center text-white shadow-lg transition hover:-translate-y-1 hover:shadow-xl block"
->
-  <h2 className="relative inline-block text-2xl font-semibold">
-    Consultorio
 
-    <span className="absolute -bottom-3 left-1/2 h-px w-12 -translate-x-1/2 bg-gray-400"></span>
-  </h2>
+              <div className="mt-4 h-px w-10 bg-neutral-300 transition group-hover:w-16"></div>
 
-  <p className="mt-8 leading-7 text-gray-300">
-    Próximamente se actualizará la dirección del consultorio físico
-    para atención presencial.
-  </p>
-</Link>
+
+              <p className="mt-6 leading-7 text-neutral-500">
+                {service.text}
+              </p>
+
+
+            </Link>
+
+          ))}
+
 
         </section>
 
+
+
+        {/* CTA */}
+
+        <section className="mt-20 rounded-[36px] bg-neutral-900 px-8 py-14 text-center text-white">
+
+          <h2 className="text-3xl font-semibold">
+            ¿Necesitás una consulta médica?
+          </h2>
+
+
+          <p className="mt-4 text-neutral-300">
+            Reservá tu turno online de manera rápida y segura.
+          </p>
+
+
+          <Link
+            href="/reservar"
+            className="
+            mt-8
+            inline-flex
+            rounded-full
+            bg-white
+            px-10
+            py-4
+            font-medium
+            text-black
+            transition
+            hover:scale-105
+            "
+          >
+            Reservar turno
+          </Link>
+
+
+        </section>
+
+
       </div>
+
     </main>
   );
 }
