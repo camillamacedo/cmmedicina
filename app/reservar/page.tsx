@@ -76,20 +76,17 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-
   return (
 
-
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
 
 
       <div className="mx-auto max-w-6xl px-6 py-20">
 
 
-
         <Link
           href="/"
-          className="text-gray-500 transition hover:text-black"
+          className="text-sm text-gray-500 transition hover:text-black"
         >
           ← Volver al inicio
         </Link>
@@ -98,43 +95,242 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+        {/* HEADER PREMIUM */}
 
-{/* HEADER */}
-
-<section className="mt-14 flex justify-center">
-
-  <div className="w-full max-w-4xl rounded-3xl bg-black px-8 py-10 text-center text-white shadow-lg">
+        <section className="mt-14 flex justify-center">
 
 
-
-    <h1 className="mt-4 text-4xl font-bold md:text-5xl">
-      Reservá tu consulta médica
-    </h1>
-
-
-
-    <p className="mx-auto mt-5 max-w-2xl text-base leading-7 text-gray-300 md:text-lg">
-
-      Completá tus datos y seleccioná el horario que mejor
-      se adapte a vos. Recibirás confirmación de tu turno
-      por WhatsApp.
-
-    </p>
-
-
-  </div>
-
-</section>
+          <div
+            className="
+            w-full
+            max-w-4xl
+            rounded-[32px]
+            bg-black
+            px-8
+            py-12
+            text-center
+            text-white
+            shadow-xl
+            "
+          >
 
 
+            <div
+              className="
+              mx-auto
+              mb-6
+              flex
+              h-16
+              w-16
+              items-center
+              justify-center
+              rounded-full
+              border
+              border-white/20
+              text-2xl
+              font-semibold
+              "
+            >
+              CM
+            </div>
+
+
+
+            <h1
+              className="
+              text-4xl
+              font-bold
+              tracking-tight
+              md:text-5xl
+              "
+            >
+              Reservá tu turno
+            </h1>
+
+
+
+
+            <p
+              className="
+              mx-auto
+              mt-5
+              max-w-2xl
+              text-base
+              leading-7
+              text-gray-300
+              md:text-lg
+              "
+            >
+              Completá tus datos y seleccioná el horario
+              que mejor se adapte a vos. Recibirás la
+              confirmación de tu consulta por WhatsApp.
+            </p>
+
+
+
+          </div>
+
+
+        </section>
+
+
+
+
+
+        {/* COMO FUNCIONA */}
+
+
+        <section className="mx-auto mt-10 max-w-4xl">
+
+
+          <div
+            className="
+            rounded-3xl
+            border
+            border-gray-100
+            bg-white
+            p-8
+            shadow-[0_20px_50px_rgba(0,0,0,0.05)]
+            "
+          >
+
+
+            <h2 className="text-center text-2xl font-semibold">
+              ¿Cómo funciona?
+            </h2>
+
+
+
+            <div
+              className="
+              mt-8
+              grid
+              gap-6
+              md:grid-cols-4
+              "
+            >
+
+
+
+              <div className="text-center">
+
+                <div
+                  className="
+                  mx-auto
+                  flex
+                  h-10
+                  w-10
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-black
+                  text-white
+                  "
+                >
+                  1
+                </div>
+
+                <p className="mt-3 text-sm text-gray-600">
+                  Completá tus datos
+                </p>
+
+              </div>
+
+
+
+
+
+              <div className="text-center">
+
+                <div
+                  className="
+                  mx-auto
+                  flex
+                  h-10
+                  w-10
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-black
+                  text-white
+                  "
+                >
+                  2
+                </div>
+
+                <p className="mt-3 text-sm text-gray-600">
+                  Elegí fecha y horario
+                </p>
+
+              </div>
+                            <div className="text-center">
+
+                <div
+                  className="
+                  mx-auto
+                  flex
+                  h-10
+                  w-10
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-black
+                  text-white
+                  "
+                >
+                  3
+                </div>
+
+                <p className="mt-3 text-sm text-gray-600">
+                  Recibí confirmación
+                  por WhatsApp
+                </p>
+
+              </div>
 
 
 
 
 
 
+              <div className="text-center">
 
-      
+                <div
+                  className="
+                  mx-auto
+                  flex
+                  h-10
+                  w-10
+                  items-center
+                  justify-center
+                  rounded-full
+                  bg-black
+                  text-white
+                  "
+                >
+                  4
+                </div>
+
+                <p className="mt-3 text-sm text-gray-600">
+                  Realizá tu consulta
+                </p>
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+        </section>
+
+
+
+
 
 
 
@@ -143,84 +339,30 @@ Solicitud enviada desde la página web de CM Medicina.
         {/* FORMULARIO */}
 
 
-        <div className="mx-auto mt-12 max-w-3xl rounded-3xl border border-black-100 bg-white p-8 shadow-lg md:p-10">
+
+        <section className="mx-auto mt-12 max-w-3xl">
 
 
-
-          <form
-            onSubmit={handleSubmit}
-            className="space-y-6"
+          <div
+            className="
+            rounded-[32px]
+            border
+            border-gray-100
+            bg-white
+            p-8
+            shadow-[0_20px_50px_rgba(0,0,0,0.08)]
+            md:p-10
+            "
           >
 
 
 
+            <form
+              onSubmit={handleSubmit}
+              className="space-y-6"
+            >
 
 
-            <div>
-
-              <label className="mb-2 block text-sm font-medium text-gray-700">
-                Nombre y Apellido
-              </label>
-
-
-              <input
-                required
-                name="nombre"
-                type="text"
-                placeholder="Ingresá tu nombre completo"
-                className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-black"
-              />
-
-            </div>
-
-
-
-
-
-
-            <div>
-
-              <label className="mb-2 block text-sm font-medium text-gray-700">
-                Edad
-              </label>
-
-
-              <input
-                required
-                name="edad"
-                type="number"
-                placeholder="Ej: 35"
-                className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-black"
-              />
-
-            </div>
-
-
-
-
-
-
-
-
-            <div className="grid gap-6 md:grid-cols-2">
-
-
-              <div>
-
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Número de contacto
-                </label>
-
-
-                <input
-                  required
-                  name="contacto"
-                  type="tel"
-                  placeholder="+54 9..."
-                  className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-black"
-                />
-
-              </div>
 
 
 
@@ -228,23 +370,103 @@ Solicitud enviada desde la página web de CM Medicina.
 
               <div>
 
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Mail
+
+                <label
+                  className="
+                  mb-2
+                  block
+                  text-sm
+                  font-medium
+                  text-gray-700
+                  "
+                >
+                  Nombre y Apellido
                 </label>
 
 
+
                 <input
+
                   required
-                  name="mail"
-                  type="email"
-                  placeholder="correo@email.com"
-                  className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-black"
+
+                  name="nombre"
+
+                  type="text"
+
+                  placeholder="Ingresá tu nombre completo"
+
+                  className="
+                  w-full
+                  rounded-xl
+                  border
+                  border-gray-200
+                  px-4
+                  py-3
+                  outline-none
+                  transition
+                  focus:border-black
+                  focus:ring-2
+                  focus:ring-black/10
+                  "
+
                 />
+
 
               </div>
 
 
-            </div>
+
+
+
+
+
+
+
+              <div>
+
+
+                <label
+                  className="
+                  mb-2
+                  block
+                  text-sm
+                  font-medium
+                  text-gray-700
+                  "
+                >
+                  Edad
+                </label>
+
+
+
+                <input
+
+                  required
+
+                  name="edad"
+
+                  type="number"
+
+                  placeholder="Ej: 35"
+
+                  className="
+                  w-full
+                  rounded-xl
+                  border
+                  border-gray-200
+                  px-4
+                  py-3
+                  outline-none
+                  transition
+                  focus:border-black
+                  focus:ring-2
+                  focus:ring-black/10
+                  "
+
+                />
+
+
+              </div>
 
 
 
@@ -254,83 +476,63 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-            <div>
-
-
-              <label className="mb-2 block text-sm font-medium text-gray-700">
-                Seleccionar atención
-              </label>
-
-
-
-              <select
-                required
-                name="atencion"
-                className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-black"
+              <div
+                className="
+                grid
+                gap-6
+                md:grid-cols-2
+                "
               >
 
-                <option value="">
-                  Seleccionar
-                </option>
-
-                <option>
-                  Consulta Médica
-                </option>
-
-                <option>
-                  Certificados Médicos
-                </option>
-
-                <option>
-                  Apto Físico
-                </option>
-
-                <option>
-                  Solicitud de Estudios
-                </option>
-
-                <option>
-                  Renovación de Recetas Médicas
-                </option>
 
 
-              </select>
+                <div>
 
 
-            </div>
+                  <label
+                    className="
+                    mb-2
+                    block
+                    text-sm
+                    font-medium
+                    text-gray-700
+                    "
+                  >
+                    Número de contacto
+                  </label>
 
 
 
 
+                  <input
+
+                    required
+
+                    name="contacto"
+
+                    type="tel"
+
+                    placeholder="+54 9..."
+
+                    className="
+                    w-full
+                    rounded-xl
+                    border
+                    border-gray-200
+                    px-4
+                    py-3
+                    outline-none
+                    transition
+                    focus:border-black
+                    focus:ring-2
+                    focus:ring-black/10
+                    "
+
+                  />
 
 
 
-
-
-            <div>
-
-
-              <label className="mb-2 block text-sm font-medium text-gray-700">
-                Motivo de Consulta
-              </label>
-
-
-              <textarea
-
-                required
-
-                name="motivo"
-
-                rows={5}
-
-                placeholder="Describí brevemente el motivo de tu consulta"
-
-                className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-black"
-
-              />
-
-
-            </div>
+                </div>
 
 
 
@@ -340,22 +542,54 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-            <div className="grid gap-6 md:grid-cols-2">
+                <div>
 
 
-              <div>
+                  <label
+                    className="
+                    mb-2
+                    block
+                    text-sm
+                    font-medium
+                    text-gray-700
+                    "
+                  >
+                    Mail
+                  </label>
 
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Seleccioná el día
-                </label>
 
 
-                <input
-                  required
-                  name="fecha"
-                  type="date"
-                  className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-black"
-                />
+
+                  <input
+
+                    required
+
+                    name="mail"
+
+                    type="email"
+
+                    placeholder="correo@email.com"
+
+                    className="
+                    w-full
+                    rounded-xl
+                    border
+                    border-gray-200
+                    px-4
+                    py-3
+                    outline-none
+                    transition
+                    focus:border-black
+                    focus:ring-2
+                    focus:ring-black/10
+                    "
+
+                  />
+
+
+
+                </div>
+
 
 
               </div>
@@ -365,12 +599,26 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+
+
+
               <div>
 
 
-                <label className="mb-2 block text-sm font-medium text-gray-700">
-                  Seleccioná el horario
+
+                <label
+                  className="
+                  mb-2
+                  block
+                  text-sm
+                  font-medium
+                  text-gray-700
+                  "
+                >
+                  Seleccionar atención
                 </label>
+
+
 
 
 
@@ -378,35 +626,248 @@ Solicitud enviada desde la página web de CM Medicina.
 
                   required
 
-                  name="horario"
+                  name="atencion"
 
-                  className="w-full rounded-xl border border-gray-200 px-4 py-3 outline-none transition focus:border-black"
+                  className="
+                  w-full
+                  rounded-xl
+                  border
+                  border-gray-200
+                  px-4
+                  py-3
+                  outline-none
+                  transition
+                  focus:border-black
+                  focus:ring-2
+                  focus:ring-black/10
+                  "
 
                 >
 
 
                   <option value="">
-                    Seleccionar horario
+                    Seleccionar
                   </option>
 
 
+                  <option>
+                    Consulta Médica
+                  </option>
 
-                  {horarios.map((hora) => (
 
-                    <option key={hora}>
-                      {hora}
-                    </option>
+                  <option>
+                    Certificados Médicos
+                  </option>
 
-                  ))}
+
+                  <option>
+                    Apto Físico
+                  </option>
+
+
+                  <option>
+                    Solicitud de Estudios
+                  </option>
+
+
+                  <option>
+                    Renovación de Recetas Médicas
+                  </option>
+
 
 
                 </select>
 
 
+
+              </div>
+
+                            <div>
+
+
+                <label
+                  className="
+                  mb-2
+                  block
+                  text-sm
+                  font-medium
+                  text-gray-700
+                  "
+                >
+                  Motivo de Consulta
+                </label>
+
+
+
+
+                <textarea
+
+                  required
+
+                  name="motivo"
+
+                  rows={5}
+
+                  placeholder="Describí brevemente el motivo de tu consulta"
+
+                  className="
+                  w-full
+                  rounded-xl
+                  border
+                  border-gray-200
+                  px-4
+                  py-3
+                  outline-none
+                  transition
+                  focus:border-black
+                  focus:ring-2
+                  focus:ring-black/10
+                  "
+
+                />
+
+
+
               </div>
 
 
-            </div>
+
+
+
+
+
+
+
+              <div
+                className="
+                grid
+                gap-6
+                md:grid-cols-2
+                "
+              >
+
+
+
+                <div>
+
+
+                  <label
+                    className="
+                    mb-2
+                    block
+                    text-sm
+                    font-medium
+                    text-gray-700
+                    "
+                  >
+                    Seleccioná el día
+                  </label>
+
+
+
+
+                  <input
+
+                    required
+
+                    name="fecha"
+
+                    type="date"
+
+                    className="
+                    w-full
+                    rounded-xl
+                    border
+                    border-gray-200
+                    px-4
+                    py-3
+                    outline-none
+                    transition
+                    focus:border-black
+                    focus:ring-2
+                    focus:ring-black/10
+                    "
+
+                  />
+
+
+                </div>
+
+
+
+
+
+
+
+
+                <div>
+
+
+                  <label
+                    className="
+                    mb-2
+                    block
+                    text-sm
+                    font-medium
+                    text-gray-700
+                    "
+                  >
+                    Seleccioná el horario
+                  </label>
+
+
+
+
+
+                  <select
+
+                    required
+
+                    name="horario"
+
+                    className="
+                    w-full
+                    rounded-xl
+                    border
+                    border-gray-200
+                    px-4
+                    py-3
+                    outline-none
+                    transition
+                    focus:border-black
+                    focus:ring-2
+                    focus:ring-black/10
+                    "
+
+                  >
+
+
+
+                    <option value="">
+                      Seleccionar horario
+                    </option>
+
+
+
+
+                    {horarios.map((hora) => (
+
+                      <option key={hora}>
+                        {hora}
+                      </option>
+
+                    ))}
+
+
+
+                  </select>
+
+
+                </div>
+
+
+
+              </div>
 
 
 
@@ -416,46 +877,65 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-            <button
+              <button
 
-              type="submit"
+                type="submit"
 
-              className="
-              w-full
-              rounded-full
-              bg-green-600
-              py-4
-              font-semibold
-              text-white
-              transition
-              hover:bg-green-700
-              "
+                className="
+                w-full
+                rounded-full
+                bg-green-600
+                py-4
+                font-semibold
+                text-white
+                shadow-md
+                transition
+                hover:bg-green-700
+                hover:shadow-lg
+                "
 
-            >
+              >
 
-              Confirmar solicitud de turno por WhatsApp
+                Confirmar solicitud de turno por WhatsApp
 
-            </button>
-
-
-
-
-
-            <p className="text-center text-sm text-gray-500">
-
-              Al enviar esta solicitud recibirás confirmación
-              de disponibilidad antes de la consulta.
-
-            </p>
+              </button>
 
 
 
 
 
-          </form>
 
 
-        </div>
+
+              <p
+                className="
+                text-center
+                text-sm
+                leading-6
+                text-gray-500
+                "
+              >
+
+                Al enviar esta solicitud recibirás
+                confirmación de disponibilidad antes
+                de la consulta.
+
+              </p>
+
+
+
+
+
+            </form>
+
+
+
+          </div>
+
+
+
+        </section>
+
 
 
 
@@ -464,7 +944,10 @@ Solicitud enviada desde la página web de CM Medicina.
       </div>
 
 
+
     </main>
 
+
   );
+
 }
