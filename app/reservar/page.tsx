@@ -132,7 +132,6 @@ Solicitud enviada desde la página web de CM Medicina.
 
         {/* COMO FUNCIONA */}
 
-
         <section
           className="
             mx-auto
@@ -148,7 +147,7 @@ Solicitud enviada desde la página web de CM Medicina.
               border-neutral-100
               bg-white
               px-4
-              py-4
+              py-3
               shadow-sm
             "
           >
@@ -157,34 +156,25 @@ Solicitud enviada desde la página web de CM Medicina.
               className="
                 grid
                 grid-cols-2
-                gap-4
+                gap-y-4
                 text-center
                 md:grid-cols-4
               "
             >
 
               <div>
-
-                <span
-                  className="
-                    text-sm
-                    font-semibold
-                    text-black
-                  "
-                >
+                <span className="text-sm font-semibold text-black">
                   1
                 </span>
 
                 <p className="mt-1 text-xs text-neutral-500">
                   Completá tus datos
                 </p>
-
               </div>
 
 
 
               <div>
-
                 <span className="text-sm font-semibold text-black">
                   2
                 </span>
@@ -192,10 +182,11 @@ Solicitud enviada desde la página web de CM Medicina.
                 <p className="mt-1 text-xs text-neutral-500">
                   Elegí fecha y horario
                 </p>
-
               </div>
-                            <div>
 
+
+
+              <div>
                 <span className="text-sm font-semibold text-black">
                   3
                 </span>
@@ -203,13 +194,11 @@ Solicitud enviada desde la página web de CM Medicina.
                 <p className="mt-1 text-xs text-neutral-500">
                   Recibí confirmación
                 </p>
-
               </div>
 
 
 
               <div>
-
                 <span className="text-sm font-semibold text-black">
                   4
                 </span>
@@ -217,23 +206,13 @@ Solicitud enviada desde la página web de CM Medicina.
                 <p className="mt-1 text-xs text-neutral-500">
                   Realizá tu consulta
                 </p>
-
               </div>
 
 
             </div>
 
-
           </div>
-
-
-        </section>
-
-
-
-
-
-        {/* FORMULARIO */}
+                  {/* FORMULARIO */}
 
 
         <section
@@ -241,31 +220,27 @@ Solicitud enviada desde la página web de CM Medicina.
             mx-auto
             mt-10
             max-w-3xl
-            md:mt-12
           "
         >
 
 
           <div
             className="
-              rounded-[28px]
+              rounded-[32px]
               border
               border-neutral-100
               bg-white
               p-6
               shadow-[0_20px_50px_rgba(0,0,0,0.08)]
-              md:rounded-[32px]
               md:p-10
             "
           >
-
 
 
             <form
               onSubmit={handleSubmit}
               className="space-y-6"
             >
-
 
 
 
@@ -302,7 +277,9 @@ Solicitud enviada desde la página web de CM Medicina.
 
                 />
 
+
               </div>
+
 
 
 
@@ -313,6 +290,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
               <div>
+
 
                 <label
                   className="
@@ -349,6 +327,8 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+
+
               {/* CONTACTO + MAIL */}
 
 
@@ -361,7 +341,9 @@ Solicitud enviada desde la página web de CM Medicina.
               >
 
 
+
                 <div>
+
 
                   <label
                     className="
@@ -374,6 +356,7 @@ Solicitud enviada desde la página web de CM Medicina.
                   >
                     Número de contacto
                   </label>
+
 
 
                   <input
@@ -397,7 +380,10 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+
+
                 <div>
+
 
                   <label
                     className="
@@ -410,6 +396,7 @@ Solicitud enviada desde la página web de CM Medicina.
                   >
                     Mail
                   </label>
+
 
 
                   <input
@@ -437,7 +424,10 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-              {/* TIPO DE ATENCION */}
+
+
+
+              {/* ATENCION */}
 
 
               <div>
@@ -502,10 +492,20 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
               </div>
-                            {/* MOTIVO DE CONSULTA */}
+
+
+
+
+
+
+
+
+
+              {/* MOTIVO */}
 
 
               <div>
+
 
                 <label
                   className="
@@ -518,6 +518,7 @@ Solicitud enviada desde la página web de CM Medicina.
                 >
                   Motivo de Consulta
                 </label>
+
 
 
                 <textarea
@@ -536,13 +537,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
               </div>
-
-
-
-
-
-
-              {/* FECHA + HORARIO */}
+                            {/* FECHA + HORARIO */}
 
 
               <div
@@ -645,7 +640,6 @@ Solicitud enviada desde la página web de CM Medicina.
                 </div>
 
 
-
               </div>
 
 
@@ -655,7 +649,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-              {/* BOTON */}
+              {/* BOTON WHATSAPP */}
 
 
               <button
@@ -703,7 +697,10 @@ Solicitud enviada desde la página web de CM Medicina.
 
               </p>
 
-                            </p>
+
+
+
+
 
 
             </form>
@@ -726,4 +723,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
   );
 
+
 }
+
+        </section>
