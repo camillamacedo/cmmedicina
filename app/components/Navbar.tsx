@@ -1,61 +1,83 @@
 import Image from "next/image";
 import Link from "next/link";
+
 export default function Navbar() {
   return (
-    <header className="fixed top-0 z-50 w-full bg-white/80 backdrop-blur border-b">
+    <header className="fixed top-0 z-50 w-full border-b border-neutral-200 bg-white/90 backdrop-blur-md">
 
-      <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+      <nav className="mx-auto flex h-24 max-w-7xl items-center justify-between px-8">
 
-        <div className="flex items-center gap-3">
+        {/* Logo */}
 
-  <Image
-  src="/logo.png"
-  alt="CM Medicina"
-  width={55}
-  height={55}
-/>
+        <Link
+          href="/"
+          className="flex items-center gap-4 transition-opacity hover:opacity-80"
+        >
 
-  <div>
-    <h1 className="text-xl font-bold">
-      Camilla Macedo
-    </h1>
+          <Image
+            src="/logo.png"
+            alt="CM Medicina"
+            width={58}
+            height={58}
+            className="rounded-full"
+          />
 
-    <p className="text-xs text-gray-500">
-      Medicina a tu alcance
-    </p>
-  </div>
+          <div>
 
-</div>
+            <h1 className="text-xl font-semibold tracking-tight text-neutral-900">
+              Dra. Camilla Macedo
+            </h1>
 
-        <div className="hidden md:flex items-center gap-8 text-sm">
+            <p className="mt-1 text-xs uppercase tracking-[0.25em] text-neutral-400">
+              Medicina Online
+            </p>
+
+          </div>
+
+        </Link>
+
+        {/* Menu */}
+
+        <div className="hidden items-center gap-10 lg:flex text-[15px] font-medium">
 
           <Link
-  href="/#inicio"
-  className="text-gray-600 transition hover:text-black"
->
-  Inicio
-</Link>
+            href="/#inicio"
+            className="text-neutral-500 transition hover:text-black"
+          >
+            Inicio
+          </Link>
 
-          <Link href="servicios">
+          <Link
+            href="/servicios"
+            className="text-neutral-500 transition hover:text-black"
+          >
             Servicios
           </Link>
 
-          <Link href="Teleconsulta">
+          <Link
+            href="/Teleconsulta"
+            className="text-neutral-500 transition hover:text-black"
+          >
             Teleconsulta
           </Link>
 
-          <Link href="contacto">
+          <Link
+            href="/contacto"
+            className="text-neutral-500 transition hover:text-black"
+          >
             Contacto
           </Link>
 
         </div>
 
+        {/* Botão */}
+
         <Link
-  href="/reservar"
-  className="rounded-full bg-black px-6 py-3 text-sm text-white transition hover:bg-gray-800"
->
-  Reservar Turno
-</Link>
+          href="/reservar"
+          className="rounded-full bg-black px-8 py-3 text-sm font-medium text-white transition duration-300 hover:scale-105 hover:bg-neutral-800"
+        >
+          Reservar turno
+        </Link>
 
       </nav>
 
