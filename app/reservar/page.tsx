@@ -76,12 +76,34 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+
+  const inputStyle = `
+    w-full
+    rounded-xl
+    border
+    border-gray-200
+    bg-white
+    text-gray-900
+    px-4
+    py-3
+    outline-none
+    transition
+    placeholder:text-gray-400
+    autofill:bg-white
+    focus:border-black
+    focus:ring-2
+    focus:ring-black/10
+  `;
+
+
+
   return (
 
     <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
 
 
       <div className="mx-auto max-w-6xl px-6 py-20">
+
 
 
         <Link
@@ -95,7 +117,8 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-        {/* HEADER PREMIUM */}
+        {/* HEADER */}
+
 
         <section className="mt-14 flex justify-center">
 
@@ -133,6 +156,7 @@ Solicitud enviada desde la página web de CM Medicina.
             >
               CM
             </div>
+
 
 
 
@@ -177,6 +201,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+
         {/* COMO FUNCIONA */}
 
 
@@ -195,7 +220,7 @@ Solicitud enviada desde la página web de CM Medicina.
           >
 
 
-            <h2 className="text-center text-2xl font-semibold">
+            <h2 className="text-center text-2xl font-semibold text-gray-900">
               ¿Cómo funciona?
             </h2>
 
@@ -210,117 +235,47 @@ Solicitud enviada desde la página web de CM Medicina.
               "
             >
 
-
-
               <div className="text-center">
-
-                <div
-                  className="
-                  mx-auto
-                  flex
-                  h-10
-                  w-10
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-black
-                  text-white
-                  "
-                >
+                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
                   1
                 </div>
-
                 <p className="mt-3 text-sm text-gray-600">
                   Completá tus datos
                 </p>
-
               </div>
 
 
-
-
-
               <div className="text-center">
-
-                <div
-                  className="
-                  mx-auto
-                  flex
-                  h-10
-                  w-10
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-black
-                  text-white
-                  "
-                >
+                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
                   2
                 </div>
-
                 <p className="mt-3 text-sm text-gray-600">
                   Elegí fecha y horario
                 </p>
-
               </div>
-                            <div className="text-center">
-
-                <div
-                  className="
-                  mx-auto
-                  flex
-                  h-10
-                  w-10
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-black
-                  text-white
-                  "
-                >
-                  3
-                </div>
-
-                <p className="mt-3 text-sm text-gray-600">
-                  Recibí confirmación
-                  por WhatsApp
-                </p>
-
-              </div>
-
-
-
-
 
 
               <div className="text-center">
-
-                <div
-                  className="
-                  mx-auto
-                  flex
-                  h-10
-                  w-10
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-black
-                  text-white
-                  "
-                >
-                  4
+                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
+                  3
                 </div>
-
                 <p className="mt-3 text-sm text-gray-600">
-                  Realizá tu consulta
+                  Recibí confirmación
                 </p>
-
               </div>
 
 
+              <div className="text-center">
+                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-black text-white">
+                  4
+                </div>
+                <p className="mt-3 text-sm text-gray-600">
+                  Realizá tu consulta
+                </p>
+              </div>
+
 
             </div>
-
 
 
           </div>
@@ -328,16 +283,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
         </section>
 
-
-
-
-
-
-
-
-
-        {/* FORMULARIO */}
-
+                {/* FORMULARIO */}
 
 
         <section className="mx-auto mt-12 max-w-3xl">
@@ -366,10 +312,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-
-
               <div>
-
 
                 <label
                   className="
@@ -395,25 +338,12 @@ Solicitud enviada desde la página web de CM Medicina.
 
                   placeholder="Ingresá tu nombre completo"
 
-                  className="
-                  w-full
-                  rounded-xl
-                  border
-                  border-gray-200
-                  px-4
-                  py-3
-                  outline-none
-                  transition
-                  focus:border-black
-                  focus:ring-2
-                  focus:ring-black/10
-                  "
+                  className={inputStyle}
 
                 />
 
 
               </div>
-
 
 
 
@@ -439,6 +369,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+
                 <input
 
                   required
@@ -449,21 +380,10 @@ Solicitud enviada desde la página web de CM Medicina.
 
                   placeholder="Ej: 35"
 
-                  className="
-                  w-full
-                  rounded-xl
-                  border
-                  border-gray-200
-                  px-4
-                  py-3
-                  outline-none
-                  transition
-                  focus:border-black
-                  focus:ring-2
-                  focus:ring-black/10
-                  "
+                  className={inputStyle}
 
                 />
+
 
 
               </div>
@@ -514,27 +434,12 @@ Solicitud enviada desde la página web de CM Medicina.
 
                     placeholder="+54 9..."
 
-                    className="
-                    w-full
-                    rounded-xl
-                    border
-                    border-gray-200
-                    px-4
-                    py-3
-                    outline-none
-                    transition
-                    focus:border-black
-                    focus:ring-2
-                    focus:ring-black/10
-                    "
+                    className={inputStyle}
 
                   />
 
 
-
                 </div>
-
-
 
 
 
@@ -560,6 +465,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+
                   <input
 
                     required
@@ -570,26 +476,12 @@ Solicitud enviada desde la página web de CM Medicina.
 
                     placeholder="correo@email.com"
 
-                    className="
-                    w-full
-                    rounded-xl
-                    border
-                    border-gray-200
-                    px-4
-                    py-3
-                    outline-none
-                    transition
-                    focus:border-black
-                    focus:ring-2
-                    focus:ring-black/10
-                    "
+                    className={inputStyle}
 
                   />
 
 
-
                 </div>
-
 
 
               </div>
@@ -603,7 +495,6 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
               <div>
-
 
 
                 <label
@@ -628,19 +519,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
                   name="atencion"
 
-                  className="
-                  w-full
-                  rounded-xl
-                  border
-                  border-gray-200
-                  px-4
-                  py-3
-                  outline-none
-                  transition
-                  focus:border-black
-                  focus:ring-2
-                  focus:ring-black/10
-                  "
+                  className={inputStyle}
 
                 >
 
@@ -675,14 +554,20 @@ Solicitud enviada desde la página web de CM Medicina.
                   </option>
 
 
-
                 </select>
-
 
 
               </div>
 
-                            <div>
+
+
+
+
+
+
+
+
+              <div>
 
 
                 <label
@@ -710,35 +595,14 @@ Solicitud enviada desde la página web de CM Medicina.
 
                   placeholder="Describí brevemente el motivo de tu consulta"
 
-                  className="
-                  w-full
-                  rounded-xl
-                  border
-                  border-gray-200
-                  px-4
-                  py-3
-                  outline-none
-                  transition
-                  focus:border-black
-                  focus:ring-2
-                  focus:ring-black/10
-                  "
+                  className={inputStyle}
 
                 />
 
 
-
               </div>
 
-
-
-
-
-
-
-
-
-              <div
+                            <div
                 className="
                 grid
                 gap-6
@@ -774,19 +638,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
                     type="date"
 
-                    className="
-                    w-full
-                    rounded-xl
-                    border
-                    border-gray-200
-                    px-4
-                    py-3
-                    outline-none
-                    transition
-                    focus:border-black
-                    focus:ring-2
-                    focus:ring-black/10
-                    "
+                    className={inputStyle}
 
                   />
 
@@ -825,19 +677,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
                     name="horario"
 
-                    className="
-                    w-full
-                    rounded-xl
-                    border
-                    border-gray-200
-                    px-4
-                    py-3
-                    outline-none
-                    transition
-                    focus:border-black
-                    focus:ring-2
-                    focus:ring-black/10
-                    "
+                    className={inputStyle}
 
                   >
 
@@ -861,6 +701,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
                   </select>
+
 
 
                 </div>
@@ -896,9 +737,10 @@ Solicitud enviada desde la página web de CM Medicina.
 
               >
 
-                Confirmar solicitud de turno por WhatsApp
+                Solicitar turno por WhatsApp
 
               </button>
+
 
 
 
@@ -921,6 +763,7 @@ Solicitud enviada desde la página web de CM Medicina.
                 de la consulta.
 
               </p>
+
 
 
 
