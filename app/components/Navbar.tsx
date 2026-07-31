@@ -55,7 +55,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="/Teleconsulta"
+            href="/teleconsulta"
             className="text-neutral-500 transition hover:text-black"
           >
             Teleconsulta
