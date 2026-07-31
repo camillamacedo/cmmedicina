@@ -28,19 +28,15 @@ export default function Servicios() {
 
 
           <h1 className="mt-5 text-4xl font-semibold tracking-tight text-neutral-900 md:text-5xl">
-
             Atención médica personalizada,
             estés donde estés.
-
           </h1>
 
 
           <p className="mt-6 max-w-3xl text-lg leading-8 text-neutral-500">
-
             Servicios de medicina clínica mediante telemedicina
             para pacientes de toda Argentina, con atención segura,
             profesional y basada en evidencia científica.
-
           </p>
 
 
@@ -107,6 +103,7 @@ export default function Servicios() {
               border-neutral-200
               bg-white
               p-6
+              text-center
               transition
               duration-300
               hover:-translate-y-1
@@ -120,14 +117,12 @@ export default function Servicios() {
               </h2>
 
 
-              <div className="mt-4 h-px w-8 bg-neutral-300 transition-all duration-300 group-hover:w-12">
+              <div className="mx-auto mt-4 h-px w-8 bg-neutral-300 transition-all duration-300 group-hover:w-12">
               </div>
 
 
               <p className="mt-5 text-sm leading-6 text-neutral-500">
-
                 {service.text}
-
               </p>
 
 
@@ -143,28 +138,21 @@ export default function Servicios() {
 
         {/* CTA FINAL */}
 
-
         <section className="mt-20 rounded-[36px] bg-neutral-900 px-8 py-14 text-center text-white">
 
 
           <h2 className="text-3xl font-semibold">
-
             ¿Necesitás una consulta médica?
-
           </h2>
 
 
           <p className="mt-4 text-neutral-300">
-
             Reservá tu turno online de manera rápida y segura.
-
           </p>
 
 
           <Link
-
             href="/reservar"
-
             className="
             mt-8
             inline-flex
@@ -177,7 +165,6 @@ export default function Servicios() {
             transition
             hover:scale-105
             "
-
           >
 
             Reservar turno
