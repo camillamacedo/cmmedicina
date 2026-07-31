@@ -140,7 +140,7 @@ Solicitud enviada desde la página web de CM Medicina.
     <div className="mx-auto mb-4 flex justify-center">
 
       <img
-        src="/logo-cm.png"
+        src="/logo.png"
         alt="CM Medicina"
         className="h-14 w-auto object-contain"
       />
