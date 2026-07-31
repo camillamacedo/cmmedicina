@@ -68,7 +68,6 @@ Solicitud enviada desde la página web de CM Medicina.
       `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensaje)}`;
 
 
-
     window.open(url, "_blank");
 
   }
@@ -81,15 +80,14 @@ Solicitud enviada desde la página web de CM Medicina.
     w-full
     rounded-xl
     border
-    border-gray-200
+    border-neutral-200
     bg-white
-    text-gray-900
     px-4
     py-3
+    text-neutral-900
     outline-none
     transition
-    placeholder:text-gray-400
-    autofill:bg-white
+    placeholder:text-neutral-400
     focus:border-black
     focus:ring-2
     focus:ring-black/10
@@ -97,97 +95,167 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+
   return (
 
-    <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <main className="min-h-screen bg-gradient-to-b from-white to-neutral-50">
 
 
-      <div className="mx-auto max-w-6xl px-6 py-20">
+      <div
+        className="
+          mx-auto
+          max-w-6xl
+          px-5
+          py-16
+          md:px-6
+          md:py-20
+        "
+      >
 
 
 
         <Link
           href="/"
-          className="text-sm text-gray-500 transition hover:text-black"
+          className="
+            text-sm
+            text-neutral-500
+            transition
+            hover:text-black
+          "
         >
           ← Volver al inicio
         </Link>
 
 
-        {/* CÓMO FUNCIONA */}
-
-<section className="mx-auto mt-6 max-w-3xl">
-
-  <div
-    className="
-    rounded-2xl
-    border
-    border-gray-100
-    bg-white
-    px-4
-    py-3
-    shadow-sm
-    "
-  >
-
-    <div
-      className="
-      grid
-      grid-cols-2
-      gap-y-3
-      text-center
-      md:grid-cols-4
-      "
-    >
-
-      <div>
-        <div className="text-base font-bold text-black">1</div>
-        <p className="text-xs text-gray-600">
-          Completá tus datos
-        </p>
-      </div>
-
-      <div>
-        <div className="text-base font-bold text-black">2</div>
-        <p className="text-xs text-gray-600">
-          Elegí fecha y horario
-        </p>
-      </div>
-
-      <div>
-        <div className="text-base font-bold text-black">3</div>
-        <p className="text-xs text-gray-600">
-          Recibí confirmación
-        </p>
-      </div>
-
-      <div>
-        <div className="text-base font-bold text-black">4</div>
-        <p className="text-xs text-gray-600">
-          Realizá tu consulta
-        </p>
-      </div>
-
-    </div>
-
-  </div>
-
-</section>
-                {/* FORMULARIO */}
 
 
-        <section className="mx-auto mt-12 max-w-3xl">
+
+        {/* COMO FUNCIONA */}
+
+
+        <section
+          className="
+            mx-auto
+            mt-8
+            max-w-3xl
+          "
+        >
+
+          <div
+            className="
+              rounded-2xl
+              border
+              border-neutral-100
+              bg-white
+              px-4
+              py-4
+              shadow-sm
+            "
+          >
+
+            <div
+              className="
+                grid
+                grid-cols-2
+                gap-4
+                text-center
+                md:grid-cols-4
+              "
+            >
+
+              <div>
+
+                <span
+                  className="
+                    text-sm
+                    font-semibold
+                    text-black
+                  "
+                >
+                  1
+                </span>
+
+                <p className="mt-1 text-xs text-neutral-500">
+                  Completá tus datos
+                </p>
+
+              </div>
+
+
+
+              <div>
+
+                <span className="text-sm font-semibold text-black">
+                  2
+                </span>
+
+                <p className="mt-1 text-xs text-neutral-500">
+                  Elegí fecha y horario
+                </p>
+
+              </div>
+                            <div>
+
+                <span className="text-sm font-semibold text-black">
+                  3
+                </span>
+
+                <p className="mt-1 text-xs text-neutral-500">
+                  Recibí confirmación
+                </p>
+
+              </div>
+
+
+
+              <div>
+
+                <span className="text-sm font-semibold text-black">
+                  4
+                </span>
+
+                <p className="mt-1 text-xs text-neutral-500">
+                  Realizá tu consulta
+                </p>
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+        </section>
+
+
+
+
+
+        {/* FORMULARIO */}
+
+
+        <section
+          className="
+            mx-auto
+            mt-10
+            max-w-3xl
+            md:mt-12
+          "
+        >
 
 
           <div
             className="
-            rounded-[32px]
-            border
-            border-gray-100
-            bg-white
-            p-8
-            shadow-[0_20px_50px_rgba(0,0,0,0.08)]
-            md:p-10
+              rounded-[28px]
+              border
+              border-neutral-100
+              bg-white
+              p-6
+              shadow-[0_20px_50px_rgba(0,0,0,0.08)]
+              md:rounded-[32px]
+              md:p-10
             "
           >
 
@@ -202,20 +270,22 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+              {/* NOMBRE */}
+
+
               <div>
 
                 <label
                   className="
-                  mb-2
-                  block
-                  text-sm
-                  font-medium
-                  text-gray-700
+                    mb-2
+                    block
+                    text-sm
+                    font-medium
+                    text-neutral-700
                   "
                 >
                   Nombre y Apellido
                 </label>
-
 
 
                 <input
@@ -232,7 +302,6 @@ Solicitud enviada desde la página web de CM Medicina.
 
                 />
 
-
               </div>
 
 
@@ -240,24 +309,22 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+              {/* EDAD */}
 
 
               <div>
 
-
                 <label
                   className="
-                  mb-2
-                  block
-                  text-sm
-                  font-medium
-                  text-gray-700
+                    mb-2
+                    block
+                    text-sm
+                    font-medium
+                    text-neutral-700
                   "
                 >
                   Edad
                 </label>
-
-
 
 
                 <input
@@ -275,7 +342,6 @@ Solicitud enviada desde la página web de CM Medicina.
                 />
 
 
-
               </div>
 
 
@@ -283,35 +349,31 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-
+              {/* CONTACTO + MAIL */}
 
 
               <div
                 className="
-                grid
-                gap-6
-                md:grid-cols-2
+                  grid
+                  gap-6
+                  md:grid-cols-2
                 "
               >
 
 
-
                 <div>
-
 
                   <label
                     className="
-                    mb-2
-                    block
-                    text-sm
-                    font-medium
-                    text-gray-700
+                      mb-2
+                      block
+                      text-sm
+                      font-medium
+                      text-neutral-700
                     "
                   >
                     Número de contacto
                   </label>
-
-
 
 
                   <input
@@ -335,25 +397,19 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-
-
                 <div>
-
 
                   <label
                     className="
-                    mb-2
-                    block
-                    text-sm
-                    font-medium
-                    text-gray-700
+                      mb-2
+                      block
+                      text-sm
+                      font-medium
+                      text-neutral-700
                     "
                   >
                     Mail
                   </label>
-
-
-
 
 
                   <input
@@ -381,7 +437,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-
+              {/* TIPO DE ATENCION */}
 
 
               <div>
@@ -389,17 +445,15 @@ Solicitud enviada desde la página web de CM Medicina.
 
                 <label
                   className="
-                  mb-2
-                  block
-                  text-sm
-                  font-medium
-                  text-gray-700
+                    mb-2
+                    block
+                    text-sm
+                    font-medium
+                    text-neutral-700
                   "
                 >
                   Seleccionar atención
                 </label>
-
-
 
 
 
@@ -448,31 +502,22 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
               </div>
-
-
-
-
-
-
-
+                            {/* MOTIVO DE CONSULTA */}
 
 
               <div>
 
-
                 <label
                   className="
-                  mb-2
-                  block
-                  text-sm
-                  font-medium
-                  text-gray-700
+                    mb-2
+                    block
+                    text-sm
+                    font-medium
+                    text-neutral-700
                   "
                 >
                   Motivo de Consulta
                 </label>
-
-
 
 
                 <textarea
@@ -492,14 +537,21 @@ Solicitud enviada desde la página web de CM Medicina.
 
               </div>
 
-                            <div
+
+
+
+
+
+              {/* FECHA + HORARIO */}
+
+
+              <div
                 className="
-                grid
-                gap-6
-                md:grid-cols-2
+                  grid
+                  gap-6
+                  md:grid-cols-2
                 "
               >
-
 
 
                 <div>
@@ -507,16 +559,15 @@ Solicitud enviada desde la página web de CM Medicina.
 
                   <label
                     className="
-                    mb-2
-                    block
-                    text-sm
-                    font-medium
-                    text-gray-700
+                      mb-2
+                      block
+                      text-sm
+                      font-medium
+                      text-neutral-700
                     "
                   >
                     Seleccioná el día
                   </label>
-
 
 
 
@@ -541,22 +592,20 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-
                 <div>
 
 
                   <label
                     className="
-                    mb-2
-                    block
-                    text-sm
-                    font-medium
-                    text-gray-700
+                      mb-2
+                      block
+                      text-sm
+                      font-medium
+                      text-neutral-700
                     "
                   >
                     Seleccioná el horario
                   </label>
-
 
 
 
@@ -572,22 +621,21 @@ Solicitud enviada desde la página web de CM Medicina.
                   >
 
 
-
                     <option value="">
                       Seleccionar horario
                     </option>
 
 
 
-
                     {horarios.map((hora) => (
 
-                      <option key={hora}>
+                      <option
+                        key={hora}
+                      >
                         {hora}
                       </option>
 
                     ))}
-
 
 
                   </select>
@@ -607,22 +655,25 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
+              {/* BOTON */}
+
 
               <button
 
                 type="submit"
 
                 className="
-                w-full
-                rounded-full
-                bg-green-600
-                py-4
-                font-semibold
-                text-white
-                shadow-md
-                transition
-                hover:bg-green-700
-                hover:shadow-lg
+                  w-full
+                  rounded-full
+                  bg-black
+                  py-4
+                  font-semibold
+                  text-white
+                  shadow-md
+                  transition
+                  duration-300
+                  hover:bg-neutral-800
+                  hover:shadow-lg
                 "
 
               >
@@ -637,14 +688,12 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-
-
               <p
                 className="
-                text-center
-                text-sm
-                leading-6
-                text-gray-500
+                  text-center
+                  text-sm
+                  leading-6
+                  text-neutral-500
                 "
               >
 
@@ -654,17 +703,13 @@ Solicitud enviada desde la página web de CM Medicina.
 
               </p>
 
-
-
-
+                            </p>
 
 
             </form>
 
 
-
           </div>
-
 
 
         </section>
@@ -673,9 +718,7 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 
-
       </div>
-
 
 
     </main>
