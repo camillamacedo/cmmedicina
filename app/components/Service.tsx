@@ -28,206 +28,142 @@ export default function Services() {
 
 
 
-
         {/* CARDS */}
 
         <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
 
 
+
           {/* Consulta Médica */}
 
-          <div
-            className="
-            rounded-3xl
-            border
-            border-neutral-200
-            bg-white
-            p-6
-            text-center
-            transition
-            duration-300
-            hover:-translate-y-1
-            hover:border-neutral-400
-            hover:shadow-sm
-            "
-          >
+          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
 
-            <h3 className="text-lg font-semibold text-neutral-900">
-              Consulta Médica
-            </h3>
+            <div className="flex flex-col items-center text-center">
 
-            <div className="mx-auto mt-4 h-px w-8 bg-neutral-300"></div>
+              <h3 className="text-lg font-semibold text-neutral-900">
+                Consulta Médica
+              </h3>
 
-            <p className="mt-4 text-sm leading-6 text-neutral-500">
-              Evaluación clínica integral y seguimiento personalizado.
-            </p>
+              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+                Evaluación clínica integral y seguimiento personalizado.
+              </p>
+
+            </div>
 
           </div>
-
 
 
 
           {/* Médico de Cabecera */}
 
-          <div
-            className="
-            rounded-3xl
-            border
-            border-neutral-200
-            bg-white
-            p-6
-            text-center
-            transition
-            duration-300
-            hover:-translate-y-1
-            hover:border-neutral-400
-            hover:shadow-sm
-            "
-          >
+          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
 
-            <h3 className="text-lg font-semibold text-neutral-900">
-              Médico de Cabecera
-            </h3>
+            <div className="flex flex-col items-center text-center">
 
-            <div className="mx-auto mt-4 h-px w-8 bg-neutral-300"></div>
+              <h3 className="text-lg font-semibold text-neutral-900">
+                Médico de Cabecera
+              </h3>
 
-            <p className="mt-4 text-sm leading-6 text-neutral-500">
-              Acompañamiento continuo para el cuidado de tu salud.
-            </p>
+              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+                Acompañamiento continuo para el cuidado de tu salud.
+              </p>
+
+            </div>
 
           </div>
-
 
 
 
           {/* Cardiología */}
 
-          <div
-            className="
-            rounded-3xl
-            border
-            border-neutral-200
-            bg-white
-            p-6
-            text-center
-            transition
-            duration-300
-            hover:-translate-y-1
-            hover:border-neutral-400
-            hover:shadow-sm
-            "
-          >
+          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
 
-            <h3 className="text-lg font-semibold text-neutral-900">
-              Cardiología
-            </h3>
+            <div className="flex flex-col items-center text-center">
 
-            <div className="mx-auto mt-4 h-px w-8 bg-neutral-300"></div>
+              <h3 className="text-lg font-semibold text-neutral-900">
+                Cardiología
+              </h3>
 
-            <p className="mt-4 text-sm leading-6 text-neutral-500">
-              Prevención y seguimiento de la salud cardiovascular.
-            </p>
+              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+                Prevención y seguimiento de la salud cardiovascular.
+              </p>
+
+            </div>
 
           </div>
-
 
 
 
           {/* Certificados */}
 
-          <div
-            className="
-            rounded-3xl
-            border
-            border-neutral-200
-            bg-white
-            p-6
-            text-center
-            transition
-            duration-300
-            hover:-translate-y-1
-            hover:border-neutral-400
-            hover:shadow-sm
-            "
-          >
+          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
 
-            <h3 className="text-lg font-semibold text-neutral-900">
-              Certificados Médicos
-            </h3>
+            <div className="flex flex-col items-center text-center">
 
-            <div className="mx-auto mt-4 h-px w-8 bg-neutral-300"></div>
+              <h3 className="text-lg font-semibold text-neutral-900">
+                Certificados Médicos
+              </h3>
 
-            <p className="mt-4 text-sm leading-6 text-neutral-500">
-              Evaluación médica profesional para certificados.
-            </p>
+              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+                Evaluación médica profesional para certificados.
+              </p>
+
+            </div>
 
           </div>
-
 
 
 
           {/* Recetas */}
 
-          <div
-            className="
-            rounded-3xl
-            border
-            border-neutral-200
-            bg-white
-            p-6
-            text-center
-            transition
-            duration-300
-            hover:-translate-y-1
-            hover:border-neutral-400
-            hover:shadow-sm
-            "
-          >
+          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
 
-            <h3 className="text-lg font-semibold text-neutral-900">
-              Renovación de Recetas
-            </h3>
+            <div className="flex flex-col items-center text-center">
 
-            <div className="mx-auto mt-4 h-px w-8 bg-neutral-300"></div>
+              <h3 className="text-lg font-semibold text-neutral-900">
+                Renovación de Recetas
+              </h3>
 
-            <p className="mt-4 text-sm leading-6 text-neutral-500">
-              Seguimiento seguro de tratamientos habituales.
-            </p>
+              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+                Seguimiento seguro de tratamientos habituales.
+              </p>
+
+            </div>
 
           </div>
-
 
 
 
           {/* Teleconsulta */}
 
-          <div
-            className="
-            rounded-3xl
-            border
-            border-neutral-200
-            bg-white
-            p-6
-            text-center
-            transition
-            duration-300
-            hover:-translate-y-1
-            hover:border-neutral-400
-            hover:shadow-sm
-            "
-          >
+          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
 
-            <h3 className="text-lg font-semibold text-neutral-900">
-              Teleconsulta
-            </h3>
+            <div className="flex flex-col items-center text-center">
 
-            <div className="mx-auto mt-4 h-px w-8 bg-neutral-300"></div>
+              <h3 className="text-lg font-semibold text-neutral-900">
+                Teleconsulta
+              </h3>
 
-            <p className="mt-4 text-sm leading-6 text-neutral-500">
-              Atención online con privacidad y comodidad.
-            </p>
+              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+                Atención online con privacidad y comodidad.
+              </p>
+
+            </div>
 
           </div>
+
 
 
         </div>
