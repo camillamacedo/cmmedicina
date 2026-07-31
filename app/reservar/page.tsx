@@ -119,84 +119,74 @@ Solicitud enviada desde la página web de CM Medicina.
 
         {/* HEADER */}
 
-
-        <section className="mt-14 flex justify-center">
-
-
-          <div
-            className="
-            w-full
-            max-w-4xl
-            rounded-[32px]
-            bg-black
-            px-8
-            py-12
-            text-center
-            text-white
-            shadow-xl
-            "
-          >
+<section className="mt-10 flex justify-center">
 
 
-            <div
-              className="
-              mx-auto
-              mb-6
-              flex
-              h-16
-              w-16
-              items-center
-              justify-center
-              rounded-full
-              border
-              border-white/20
-              text-2xl
-              font-semibold
-              "
-            >
-              CM
-            </div>
+  <div
+    className="
+    w-full
+    max-w-3xl
+    rounded-[28px]
+    bg-black
+    px-6
+    py-8
+    text-center
+    text-white
+    shadow-xl
+    "
+  >
+
+
+    <div className="mx-auto mb-4 flex justify-center">
+
+      <img
+        src="/logo-cm.png"
+        alt="CM Medicina"
+        className="h-14 w-auto object-contain"
+      />
+
+    </div>
 
 
 
 
-            <h1
-              className="
-              text-4xl
-              font-bold
-              tracking-tight
-              md:text-5xl
-              "
-            >
-              Reservá tu turno
-            </h1>
+
+    <h1
+      className="
+      text-3xl
+      font-bold
+      tracking-tight
+      md:text-4xl
+      "
+    >
+      Reservá tu turno
+    </h1>
 
 
 
 
-            <p
-              className="
-              mx-auto
-              mt-5
-              max-w-2xl
-              text-base
-              leading-7
-              text-gray-300
-              md:text-lg
-              "
-            >
-              Completá tus datos y seleccioná el horario
-              que mejor se adapte a vos. Recibirás la
-              confirmación de tu consulta por WhatsApp.
-            </p>
+
+    <p
+      className="
+      mx-auto
+      mt-3
+      max-w-xl
+      text-sm
+      leading-6
+      text-gray-300
+      md:text-base
+      "
+    >
+      Completá tus datos y recibí la confirmación
+      de tu consulta por WhatsApp.
+    </p>
 
 
 
-          </div>
+  </div>
 
 
-        </section>
-
+</section>
 
 
 
