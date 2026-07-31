@@ -1,13 +1,13 @@
 export default function Services() {
   return (
-    <section className="bg-neutral-50 py-24">
+    <section className="bg-white py-24">
 
-      <div className="mx-auto max-w-7xl px-6">
+      <div className="mx-auto max-w-6xl px-6">
 
 
         {/* HEADER */}
 
-        <div className="mx-auto max-w-3xl text-center">
+        <div className="text-center">
 
           <span className="text-sm uppercase tracking-[0.30em] text-neutral-400">
             Servicios
@@ -19,9 +19,9 @@ export default function Services() {
           </h2>
 
 
-          <p className="mt-5 text-lg leading-8 text-neutral-500">
-            Servicios médicos pensados para cuidar tu salud
-            con seguridad, cercanía y evidencia científica.
+          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-neutral-500">
+            Servicios médicos pensados para ofrecer una atención
+            segura, cercana y basada en evidencia científica.
           </p>
 
         </div>
@@ -30,140 +30,77 @@ export default function Services() {
 
         {/* CARDS */}
 
-        <div className="mt-14 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-5 md:grid-cols-2 lg:grid-cols-3">
 
 
+          {[
+            {
+              title: "Consulta Médica",
+              text: "Evaluación clínica integral y seguimiento personalizado.",
+            },
+            {
+              title: "Médico de Cabecera",
+              text: "Acompañamiento continuo para cuidar tu salud.",
+            },
+            {
+              title: "Cardiología",
+              text: "Prevención y seguimiento cardiovascular.",
+            },
+            {
+              title: "Certificados Médicos",
+              text: "Evaluación profesional para emisión de certificados.",
+            },
+            {
+              title: "Renovación de Recetas",
+              text: "Seguimiento seguro de tratamientos habituales.",
+            },
+            {
+              title: "Teleconsulta",
+              text: "Atención online con privacidad y comodidad.",
+            },
 
-          {/* Consulta Médica */}
+          ].map((service) => (
 
-          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
+            <div
+              key={service.title}
+              className="
+              rounded-3xl
+              border
+              border-neutral-200
+              bg-white
+              px-6
+              py-7
+              text-center
+              transition
+              duration-300
+              hover:-translate-y-1
+              hover:border-neutral-400
+              hover:shadow-sm
+              "
+            >
 
-            <div className="flex flex-col items-center text-center">
+              <div className="flex flex-col items-center">
 
-              <h3 className="text-lg font-semibold text-neutral-900">
-                Consulta Médica
-              </h3>
 
-              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+                <h3 className="text-lg font-semibold text-neutral-900">
+                  {service.title}
+                </h3>
 
-              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
-                Evaluación clínica integral y seguimiento personalizado.
-              </p>
+
+                <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+
+                <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+                  {service.text}
+                </p>
+
+
+              </div>
+
 
             </div>
 
-          </div>
-
-
-
-          {/* Médico de Cabecera */}
-
-          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
-
-            <div className="flex flex-col items-center text-center">
-
-              <h3 className="text-lg font-semibold text-neutral-900">
-                Médico de Cabecera
-              </h3>
-
-              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
-
-              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
-                Acompañamiento continuo para el cuidado de tu salud.
-              </p>
-
-            </div>
-
-          </div>
-
-
-
-          {/* Cardiología */}
-
-          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
-
-            <div className="flex flex-col items-center text-center">
-
-              <h3 className="text-lg font-semibold text-neutral-900">
-                Cardiología
-              </h3>
-
-              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
-
-              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
-                Prevención y seguimiento de la salud cardiovascular.
-              </p>
-
-            </div>
-
-          </div>
-
-
-
-          {/* Certificados */}
-
-          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
-
-            <div className="flex flex-col items-center text-center">
-
-              <h3 className="text-lg font-semibold text-neutral-900">
-                Certificados Médicos
-              </h3>
-
-              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
-
-              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
-                Evaluación médica profesional para certificados.
-              </p>
-
-            </div>
-
-          </div>
-
-
-
-          {/* Recetas */}
-
-          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
-
-            <div className="flex flex-col items-center text-center">
-
-              <h3 className="text-lg font-semibold text-neutral-900">
-                Renovación de Recetas
-              </h3>
-
-              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
-
-              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
-                Seguimiento seguro de tratamientos habituales.
-              </p>
-
-            </div>
-
-          </div>
-
-
-
-          {/* Teleconsulta */}
-
-          <div className="rounded-3xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:border-neutral-400 hover:shadow-sm">
-
-            <div className="flex flex-col items-center text-center">
-
-              <h3 className="text-lg font-semibold text-neutral-900">
-                Teleconsulta
-              </h3>
-
-              <div className="mt-4 h-px w-8 bg-neutral-300"></div>
-
-              <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
-                Atención online con privacidad y comodidad.
-              </p>
-
-            </div>
-
-          </div>
-
+          ))}
 
 
         </div>
@@ -171,7 +108,7 @@ export default function Services() {
 
 
 
-        {/* BOTÓN */}
+        {/* BOTÃO */}
 
         <div className="mt-12 text-center">
 
