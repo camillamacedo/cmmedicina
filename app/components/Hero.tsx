@@ -255,3 +255,394 @@ export default function Home() {
 
 
             </div>
+
+                        <div
+              className="
+              rounded-3xl
+              border
+              border-neutral-200
+              bg-white
+              px-6
+              py-7
+              text-center
+              transition
+              duration-300
+              hover:-translate-y-1
+              hover:border-neutral-400
+              hover:shadow-sm
+              "
+            >
+
+              <div className="flex flex-col items-center">
+
+
+                <h3 className="text-lg font-semibold">
+                  Horarios flexibles
+                </h3>
+
+
+                <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+
+                <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+
+                  Elegí el momento más conveniente
+                  para tu consulta.
+
+                </p>
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </section>
+
+
+
+
+
+
+      {/* SERVICIOS */}
+
+
+      <section className="bg-neutral-50 py-24">
+
+
+        <div className="mx-auto max-w-7xl px-6">
+
+
+
+          <div className="text-center">
+
+
+            <span className="text-sm uppercase tracking-[0.3em] text-neutral-400">
+              Servicios
+            </span>
+
+
+
+            <h2 className="mt-5 text-4xl font-semibold tracking-tight">
+              Atención médica integral
+            </h2>
+
+
+
+            <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-neutral-500">
+
+              Soluciones médicas diseñadas para acompañarte
+              en cada etapa, con atención personalizada
+              y basada en evidencia científica.
+
+            </p>
+
+
+          </div>
+
+
+
+
+
+          {/* CARDS SERVICIOS */}
+
+
+          <div className="mt-14 grid gap-5 lg:grid-cols-3">
+
+
+
+            <div
+              className="
+              rounded-3xl
+              border
+              border-neutral-200
+              bg-white
+              px-6
+              py-7
+              text-center
+              transition
+              duration-300
+              hover:-translate-y-1
+              hover:border-neutral-400
+              hover:shadow-sm
+              "
+            >
+
+              <div className="flex flex-col items-center">
+
+
+                <h3 className="text-lg font-semibold">
+                  Consulta Médica
+                </h3>
+
+
+                <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+
+                <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+
+                  Evaluación clínica completa,
+                  diagnóstico, tratamiento y seguimiento
+                  personalizado.
+
+                </p>
+
+
+              </div>
+
+
+            </div>
+
+
+
+
+
+            <div
+              className="
+              rounded-3xl
+              border
+              border-neutral-200
+              bg-white
+              px-6
+              py-7
+              text-center
+              transition
+              duration-300
+              hover:-translate-y-1
+              hover:border-neutral-400
+              hover:shadow-sm
+              "
+            >
+
+              <div className="flex flex-col items-center">
+
+
+                <h3 className="text-lg font-semibold">
+                  Certificados Médicos
+                </h3>
+
+
+                <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+
+                <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+
+                  Evaluación profesional para emisión
+                  de certificados médicos.
+
+                </p>
+
+
+              </div>
+
+
+            </div>
+
+
+
+
+
+            <div
+              className="
+              rounded-3xl
+              border
+              border-neutral-200
+              bg-white
+              px-6
+              py-7
+              text-center
+              transition
+              duration-300
+              hover:-translate-y-1
+              hover:border-neutral-400
+              hover:shadow-sm
+              "
+            >
+
+              <div className="flex flex-col items-center">
+
+
+                <h3 className="text-lg font-semibold">
+                  Recetas y Estudios
+                </h3>
+
+
+                <div className="mt-4 h-px w-8 bg-neutral-300"></div>
+
+
+                <p className="mt-4 max-w-xs text-sm leading-6 text-neutral-500">
+
+                  Renovación de recetas,
+                  solicitud de estudios y orientación médica.
+
+                </p>
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+
+
+
+          <div className="mt-12 text-center">
+
+
+            <Link
+              href="/servicios"
+              className="
+              inline-flex
+              items-center
+              rounded-full
+              border
+              border-black
+              px-10
+              py-4
+              font-medium
+              transition-all
+              duration-300
+              hover:bg-black
+              hover:text-white
+              "
+            >
+
+              Ver todos los servicios
+
+            </Link>
+
+
+          </div>
+
+
+
+        </div>
+
+
+      </section>
+
+
+
+
+
+
+
+      {/* CTA FINAL */}
+
+
+      <section className="py-28">
+
+
+        <div className="mx-auto max-w-6xl px-6">
+
+
+          <div
+            className="
+            rounded-[40px]
+            bg-neutral-900
+            px-12
+            py-20
+            text-center
+            text-white
+            shadow-[0_30px_80px_rgba(0,0,0,.15)]
+            "
+          >
+
+
+            <span className="text-sm uppercase tracking-[0.3em] text-neutral-400">
+              Agenda Online
+            </span>
+
+
+
+            <h2 className="mt-6 text-5xl font-semibold tracking-tight">
+
+              Tu salud merece
+              una atención de excelencia.
+
+            </h2>
+
+
+
+            <p className="mx-auto mt-8 max-w-2xl text-lg leading-8 text-neutral-300">
+
+              Reservá tu consulta online de forma rápida,
+              segura y desde cualquier lugar de Argentina.
+
+            </p>
+
+
+
+
+            <div className="mt-12 flex flex-wrap justify-center gap-5">
+
+
+              <Link
+                href="/reservar"
+                className="
+                rounded-full
+                bg-white
+                px-10
+                py-4
+                font-medium
+                text-black
+                transition
+                duration-300
+                hover:scale-105
+                "
+              >
+
+                Reservar turno
+
+              </Link>
+
+
+
+              <a
+                href="https://wa.me/5491158607484"
+                target="_blank"
+                className="
+                rounded-full
+                border
+                border-neutral-600
+                px-10
+                py-4
+                font-medium
+                text-white
+                transition
+                hover:border-white
+                "
+              >
+
+                WhatsApp
+
+              </a>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </section>
+
+
+
+    </main>
+  );
+}
