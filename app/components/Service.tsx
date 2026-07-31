@@ -1,65 +1,104 @@
 export default function Services() {
   return (
-    <section className="bg-gray-50 px-6 py-24">
+    <section className="bg-neutral-50 py-28">
 
-      <div className="mx-auto max-w-6xl">
+      <div className="mx-auto max-w-7xl px-6">
 
-        <h2 className="text-center text-4xl font-bold">
-          Nuestros Servicios
-        </h2>
+        {/* TÍTULO */}
 
-        <p className="mt-4 text-center text-gray-600">
-          Atención médica con calidad, comodidad y seguridad.
-        </p>
+        <div className="text-center">
 
-        <div className="mt-14 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+          <span className="text-sm uppercase tracking-[0.30em] text-neutral-400">
+            Servicios
+          </span>
 
-<div className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-2 hover:shadow-lg">
-            <div className="text-4xl">📄</div>
+          <h2 className="mt-6 text-5xl font-semibold tracking-tight text-neutral-900">
+            Atención médica integral
+          </h2>
 
-            <h3 className="mt-6 text-xl font-semibold">
+          <p className="mx-auto mt-6 max-w-2xl text-lg leading-8 text-neutral-500">
+
+            Consultas diseñadas para ofrecer una atención personalizada,
+            segura y basada en evidencia científica.
+
+          </p>
+
+        </div>
+
+        {/* CARDS */}
+
+        <div className="mt-20 grid gap-8 md:grid-cols-2 xl:grid-cols-4">
+
+          {/* CARD */}
+
+          <div className="rounded-[32px] border border-neutral-200 bg-white p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+
+            <div className="h-px w-12 bg-neutral-300"></div>
+
+            <h3 className="mt-8 text-2xl font-semibold">
               Certificados
             </h3>
 
-            <p className="mt-3 text-gray-600">
-              Emisión de certificados médicos tras evaluación.
+            <p className="mt-5 leading-8 text-neutral-500">
+
+              Emisión de certificados médicos luego de una evaluación profesional y personalizada.
+
             </p>
+
           </div>
 
-          <div className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-2 hover:shadow-lg">
-            <div className="text-4xl">🩺</div>
+          {/* CARD */}
 
-            <h3 className="mt-6 text-xl font-semibold">
+          <div className="rounded-[32px] border border-neutral-200 bg-white p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+
+            <div className="h-px w-12 bg-neutral-300"></div>
+
+            <h3 className="mt-8 text-2xl font-semibold">
               Clínica Médica
             </h3>
 
-            <p className="mt-3 text-gray-600">
-              Evaluación integral y seguimiento de pacientes.
+            <p className="mt-5 leading-8 text-neutral-500">
+
+              Evaluación clínica integral, diagnóstico, tratamiento y seguimiento continuo.
+
             </p>
+
           </div>
 
-          <div className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-2 hover:shadow-lg">
-            <div className="text-4xl">❤️</div>
+          {/* CARD */}
 
-            <h3 className="mt-6 text-xl font-semibold">
+          <div className="rounded-[32px] border border-neutral-200 bg-white p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+
+            <div className="h-px w-12 bg-neutral-300"></div>
+
+            <h3 className="mt-8 text-2xl font-semibold">
               Cardiología
             </h3>
 
-            <p className="mt-3 text-gray-600">
-              Prevención y cuidado de la salud cardiovascular.
+            <p className="mt-5 leading-8 text-neutral-500">
+
+              Prevención, evaluación y seguimiento de los principales factores de riesgo cardiovascular.
+
             </p>
+
           </div>
 
-          <div className="rounded-3xl bg-white p-8 shadow-sm transition hover:-translate-y-2 hover:shadow-lg">
-            <div className="text-4xl">💻</div>
+          {/* CARD */}
 
-            <h3 className="mt-6 text-xl font-semibold">
+          <div className="rounded-[32px] border border-neutral-200 bg-white p-10 transition-all duration-300 hover:-translate-y-2 hover:shadow-xl">
+
+            <div className="h-px w-12 bg-neutral-300"></div>
+
+            <h3 className="mt-8 text-2xl font-semibold">
               Teleconsulta
             </h3>
 
-            <p className="mt-3 text-gray-600">
-              Consultas online desde cualquier lugar del país.
+            <p className="mt-5 leading-8 text-neutral-500">
+
+              Consultas médicas online con la misma calidad, privacidad y cercanía que una atención presencial.
+
             </p>
+
           </div>
 
         </div>
