@@ -725,5 +725,3 @@ Solicitud enviada desde la página web de CM Medicina.
 
 
 }
-
-        </section>
