@@ -2,9 +2,10 @@ import Link from "next/link";
 
 export default function SolicitudExamen() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
 
-      <div className="mx-auto max-w-5xl px-6 py-20">
+      <div className="mx-auto max-w-6xl px-6 py-20">
+
 
         <Link
           href="/servicios"
@@ -13,108 +14,180 @@ export default function SolicitudExamen() {
           ← Volver a Servicios
         </Link>
 
-        <section className="mt-12">
 
-          <h1 className="text-5xl font-bold text-gray-900">
-            Solicitud de Examen Médicos Online
-          </h1>
 
-          <p className="mt-6 text-lg leading-8 text-gray-600">
+        {/* HERO */}
+
+
+        <section className="mt-10 text-center">
+
+
+          <div className="mx-auto inline-block rounded-full bg-black px-8 py-3">
+
+            <h1 className="text-3xl font-bold text-white">
+              Solicitud de Exámenes Médicos
+            </h1>
+
+          </div>
+
+
+          <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-600">
             Durante la consulta médica online, la Dra. Camilla Macedo puede
             indicar estudios complementarios cuando exista una necesidad
             clínica. La solicitud se realiza luego de una evaluación médica
             personalizada y de acuerdo con el criterio profesional.
           </p>
 
+
         </section>
 
-        <section className="mt-16 rounded-3xl bg-gray-50 p-10">
 
-          <h2 className="text-3xl font-semibold">
+
+        {/* ESTUDIOS */}
+
+
+        <section className="mt-20">
+
+
+          <h2 className="text-center text-4xl font-bold text-black">
             ¿Qué estudios pueden solicitarse?
           </h2>
 
-          <ul className="mt-8 space-y-4 text-gray-600 leading-8">
 
-            <li>✔️ Análisis de sangre.</li>
+          <div className="mt-10 grid gap-5 md:grid-cols-3">
 
-            <li>✔️ Estudios de laboratorio.</li>
 
-            <li>✔️ Orina y otros estudios clínicos.</li>
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+              Análisis de sangre
+            </div>
 
-            <li>✔️ Electrocardiograma.</li>
 
-            <li>✔️ Ecografías.</li>
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+              Estudios de laboratorio
+            </div>
 
-            <li>✔️ Radiografías.</li>
 
-            <li>✔️ Tomografía y Resonancia (cuando corresponda).</li>
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+              Orina y otros estudios clínicos
+            </div>
 
-            <li>✔️ Otros estudios complementarios según evaluación médica.</li>
 
-          </ul>
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+              Electrocardiograma
+            </div>
 
-        </section>
 
-        <section className="mt-16">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+              Ecografías
+            </div>
 
-          <h2 className="text-3xl font-semibold">
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+              Radiografías
+            </div>
+
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+              Tomografía y Resonancia
+            </div>
+
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+              Otros estudios complementarios
+            </div>
+
+
+          </div>
+        {/* CUÁNDO SE SOLICITA */}
+
+
+        <section className="mt-20">
+
+
+          <h2 className="text-center text-4xl font-bold text-black">
             ¿Cuándo se solicita un estudio?
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-gray-600">
 
-            Cada paciente recibe una evaluación individual durante la
-            teleconsulta. Los estudios únicamente son solicitados cuando
-            existe una indicación médica y contribuyen al diagnóstico,
-            seguimiento o prevención de enfermedades.
+          <div className="mx-auto mt-8 max-w-4xl rounded-3xl bg-gray-100 p-6 text-center">
 
-          </p>
+
+            <p className="text-sm leading-7 text-gray-600">
+              Cada paciente recibe una evaluación individual durante la
+              teleconsulta. Los estudios únicamente son solicitados cuando
+              existe una indicación médica y contribuyen al diagnóstico,
+              seguimiento o prevención de enfermedades.
+            </p>
+
+
+          </div>
+
 
         </section>
 
-        <section className="mt-16">
 
-          <h2 className="text-3xl font-semibold">
+
+        {/* TELEMEDICINA */}
+
+
+        <section className="mt-20">
+
+
+          <h2 className="text-center text-4xl font-bold text-black">
             Atención médica online en Argentina
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-gray-600">
 
-            La consulta virtual permite recibir orientación médica,
-            solicitar estudios cuando estén indicados, renovar recetas,
-            obtener certificados médicos y realizar el seguimiento de
-            múltiples enfermedades desde cualquier lugar de Argentina.
+          <div className="mx-auto mt-8 max-w-4xl rounded-3xl bg-gray-100 p-6 text-center">
 
-          </p>
+
+            <p className="text-sm leading-7 text-gray-600">
+              La consulta virtual permite recibir orientación médica, solicitar
+              estudios cuando estén indicados, renovar recetas, obtener
+              certificados médicos y realizar el seguimiento de múltiples
+              enfermedades desde cualquier lugar de Argentina.
+            </p>
+
+
+          </div>
+
 
         </section>
 
-        <section className="mt-20 rounded-3xl bg-black p-12 text-center text-white">
 
-          <h2 className="text-4xl font-bold">
 
+        {/* CTA */}
+
+
+        <section className="mx-auto mt-20 max-w-4xl rounded-3xl bg-black px-8 py-10 text-center text-white">
+
+
+          <h2 className="text-3xl font-bold">
             ¿Necesitás una consulta médica?
-
           </h2>
 
-          <p className="mt-4 text-gray-300">
 
-            Reservá tu turno y recibí atención médica personalizada desde cualquier lugar de Argentina.
-
+          <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-white/80">
+            Reservá tu turno y recibí atención médica personalizada desde
+            cualquier lugar de Argentina.
           </p>
+
 
           <Link
             href="/reservar"
-            className="mt-8 inline-block rounded-full bg-white px-10 py-4 font-semibold text-black transition hover:bg-gray-200"
+            className="mt-8 inline-block rounded-full bg-white px-8 py-3 font-semibold text-black transition hover:bg-gray-200"
           >
             Reservar turno
           </Link>
 
+
         </section>
+
 
       </div>
 
     </main>
   );
 }
+
+        </section>
