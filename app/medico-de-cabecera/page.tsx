@@ -23,11 +23,13 @@ export const metadata: Metadata = {
   },
 };
 
+
 export default function MedicoCabecera() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="min-h-screen bg-gradient-to-b from-white to-gray-50">
 
-      <div className="mx-auto max-w-5xl px-6 py-20">
+      <div className="mx-auto max-w-6xl px-6 py-20">
+
 
         <Link
           href="/servicios"
@@ -36,142 +38,235 @@ export default function MedicoCabecera() {
           ← Volver a servicios
         </Link>
 
+
         {/* HERO */}
 
-        <section className="mt-12">
+        <section className="mt-10 text-center">
 
-          <h1 className="text-5xl font-bold text-gray-900">
-            Médico de Cabecera Online
-          </h1>
 
-          <p className="mt-8 text-lg leading-8 text-gray-600">
-            Tener un médico de cabecera significa contar con un profesional que
-            conoce tu historia clínica, realiza el seguimiento de tu salud y te
-            acompaña en la prevención, el diagnóstico y el tratamiento de
-            distintas enfermedades.
+          <div className="mx-auto inline-block rounded-full bg-black px-8 py-3">
+
+            <h1 className="text-3xl font-bold text-white">
+              Médico de Cabecera Online
+            </h1>
+
+          </div>
+
+
+          <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-gray-600">
+            Contá con un profesional que conoce tu historia clínica, realiza el
+            seguimiento de tu salud y te acompaña en la prevención, diagnóstico
+            y tratamiento de distintas enfermedades.
           </p>
 
+
         </section>
+
+
 
         {/* ¿QUÉ ES? */}
 
+
         <section className="mt-20">
 
-          <h2 className="text-3xl font-semibold">
+
+          <h2 className="text-center text-4xl font-bold text-black">
             ¿Qué hace un médico de cabecera?
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            El médico de cabecera es el primer profesional al que podés acudir
-            ante un problema de salud. Evalúa cada situación de manera integral,
-            coordina estudios cuando son necesarios y realiza el seguimiento de
-            enfermedades agudas y crónicas.
-          </p>
+
+          <div className="mx-auto mt-8 max-w-4xl rounded-3xl bg-gray-100 p-6 text-center">
+
+
+            <p className="text-sm leading-7 text-gray-600">
+              El médico de cabecera es el primer profesional al que podés acudir
+              ante un problema de salud. Evalúa cada situación de manera
+              integral, coordina estudios cuando son necesarios y realiza el
+              seguimiento de enfermedades agudas y crónicas.
+            </p>
+
+
+          </div>
+
 
         </section>
-
-        {/* SERVICIOS */}
+                {/* SERVICIOS */}
 
         <section className="mt-20">
 
-          <h2 className="text-3xl font-semibold">
+
+          <h2 className="text-center text-4xl font-bold text-black">
             ¿Cómo puede ayudarte?
           </h2>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
 
-            <div className="rounded-2xl border p-6">
-              ✔ Consultas de Medicina Clínica.
+          <div className="mt-10 grid gap-5 md:grid-cols-3">
+
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+
+              <h3 className="text-lg font-semibold text-gray-900">
+                Medicina Clínica
+              </h3>
+
             </div>
 
-            <div className="rounded-2xl border p-6">
-              ✔ Seguimiento de hipertensión arterial.
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+
+              <h3 className="text-lg font-semibold text-gray-900">
+                Control de hipertensión arterial
+              </h3>
+
             </div>
 
-            <div className="rounded-2xl border p-6">
-              ✔ Control de diabetes.
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+
+              <h3 className="text-lg font-semibold text-gray-900">
+                Control de diabetes
+              </h3>
+
             </div>
 
-            <div className="rounded-2xl border p-6">
-              ✔ Evaluación de síntomas frecuentes.
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+
+              <h3 className="text-lg font-semibold text-gray-900">
+                Evaluación de síntomas frecuentes
+              </h3>
+
             </div>
 
-            <div className="rounded-2xl border p-6">
-              ✔ Solicitud de estudios.
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+
+              <h3 className="text-lg font-semibold text-gray-900">
+                Solicitud de estudios
+              </h3>
+
             </div>
 
-            <div className="rounded-2xl border p-6">
-              ✔ Derivación a especialistas cuando corresponda.
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+
+              <h3 className="text-lg font-semibold text-gray-900">
+                Derivación a especialistas
+              </h3>
+
             </div>
+
 
           </div>
 
+
         </section>
+
+
 
         {/* BENEFICIOS */}
 
+
         <section className="mt-20">
 
-          <h2 className="text-3xl font-semibold">
+
+          <h2 className="text-center text-4xl font-bold text-black">
             Beneficios de tener un médico de cabecera
           </h2>
 
-          <div className="mt-8 space-y-5 text-lg text-gray-600">
 
-            <p>✔ Seguimiento continuo de tu salud.</p>
+          <div className="mt-10 grid gap-5 md:grid-cols-3">
 
-            <p>✔ Prevención de enfermedades.</p>
 
-            <p>✔ Control de enfermedades crónicas.</p>
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+              Seguimiento continuo de tu salud.
+            </div>
 
-            <p>✔ Atención personalizada.</p>
 
-            <p>✔ Mayor conocimiento de tus antecedentes médicos.</p>
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+              Prevención de enfermedades.
+            </div>
 
-            <p>✔ Acompañamiento a largo plazo.</p>
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+              Control de enfermedades crónicas.
+            </div>
+
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+              Atención personalizada.
+            </div>
+
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+              Mayor conocimiento de tus antecedentes médicos.
+            </div>
+
+
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+              Acompañamiento a largo plazo.
+            </div>
+
 
           </div>
 
-        </section>
 
-        {/* TELEMEDICINA */}
+        </section>
+                {/* TELEMEDICINA */}
 
         <section className="mt-20">
 
-          <h2 className="text-3xl font-semibold">
+
+          <h2 className="text-center text-4xl font-bold text-black">
             Médico de cabecera mediante telemedicina
           </h2>
 
-          <p className="mt-6 text-lg leading-8 text-gray-600">
-            Gracias a la telemedicina es posible realizar controles médicos,
-            resolver dudas, hacer seguimiento clínico y recibir orientación
-            profesional desde cualquier lugar de Argentina, con la comodidad de
-            una consulta online.
-          </p>
+
+          <div className="mx-auto mt-8 max-w-4xl rounded-3xl bg-gray-100 p-6 text-center">
+
+
+            <p className="text-sm leading-7 text-gray-600">
+              Gracias a la telemedicina es posible realizar controles médicos,
+              resolver dudas, hacer seguimiento clínico y recibir orientación
+              profesional desde cualquier lugar de Argentina, con la comodidad
+              de una consulta online.
+            </p>
+
+
+          </div>
+
 
         </section>
 
+
+
         {/* CTA */}
 
-        <section className="mt-24 rounded-3xl bg-black p-12 text-center text-white">
 
-          <h2 className="text-4xl font-bold">
+        <section className="mx-auto mt-20 max-w-4xl rounded-3xl bg-black px-8 py-10 text-center text-white">
+
+
+          <h2 className="text-3xl font-bold">
             Cuidá tu salud con un seguimiento profesional
           </h2>
 
-          <p className="mx-auto mt-6 max-w-3xl text-lg text-gray-300">
+
+          <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-white/80">
             La atención continua permite conocer mejor cada paciente y ofrecer
             un cuidado integral basado en confianza, prevención y seguimiento.
           </p>
 
+
           <Link
             href="/reservar"
-            className="mt-10 inline-block rounded-full bg-white px-10 py-4 font-semibold text-black transition hover:bg-gray-200"
+            className="mt-8 inline-block rounded-full bg-white px-8 py-3 font-semibold text-black transition hover:bg-gray-200"
           >
             Reservar turno
           </Link>
 
+
         </section>
+
 
       </div>
 
