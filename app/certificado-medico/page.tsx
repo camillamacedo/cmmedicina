@@ -420,26 +420,25 @@ export default function CertificadosMedicos() {
 </section>
         {/* CTA */}
 
-        <section className="mt-24 rounded-3xl bg-gray-100 px-10 py-14 text-center">
+<section className="mx-auto mt-20 max-w-4xl rounded-3xl bg-black px-8 py-10 text-center text-white">
 
-          <h2 className="text-4xl font-bold">
-            ¿Necesitás una consulta médica?
-          </h2>
+  <h2 className="text-3xl font-bold">
+    ¿Necesitás una consulta médica?
+  </h2>
 
-          <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-gray-600">
-            Reservá tu turno y recibí atención médica online de forma rápida,
-            segura y profesional desde cualquier lugar de Argentina.
-          </p>
+  <p className="mx-auto mt-4 max-w-2xl text-base leading-7 text-white/80">
+    Reservá tu turno y recibí atención médica online de forma rápida,
+    segura y profesional desde cualquier lugar de Argentina.
+  </p>
 
-          <Link
-            href="/reservar"
-            className="mt-10 inline-block rounded-full bg-black px-8 py-4 font-semibold text-white transition hover:bg-gray-800"
-          >
-            Reservar turno
-          </Link>
+  <Link
+    href="/reservar"
+    className="mt-8 inline-block rounded-full bg-white px-8 py-3 font-semibold text-black transition hover:bg-gray-200"
+  >
+    Reservar turno
+  </Link>
 
-        </section>
-
+</section>
       </div>
 
     </main>
