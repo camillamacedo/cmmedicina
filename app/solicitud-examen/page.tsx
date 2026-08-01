@@ -53,42 +53,42 @@ export default function SolicitudExamen() {
           <div className="mt-10 grid gap-5 md:grid-cols-3">
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-blck">
               Análisis de sangre
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-black">
               Estudios de laboratorio
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-black">
               Orina y otros estudios clínicos
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-black">
               Electrocardiograma
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-black">
               Ecografías
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-black">
               Radiografías
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-black">
               Tomografía y Resonancia
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-black">
               Otros estudios complementarios
             </div>
 
