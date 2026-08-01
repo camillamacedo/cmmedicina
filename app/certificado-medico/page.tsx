@@ -244,28 +244,27 @@ export default function CertificadosMedicos() {
 </section>
                 {/* IMPORTANTE */}
 
-        <section className="mt-24 rounded-3xl bg-black px-10 py-12 text-white">
+<section className="mt-20 rounded-3xl bg-black px-8 py-8 text-white">
 
-          <h2 className="text-3xl font-bold">
-            Información importante
-          </h2>
+  <h2 className="text-2xl font-bold text-center">
+    Información importante
+  </h2>
 
-          <p className="mt-6 text-lg leading-8 text-gray-300">
-            La finalidad de la consulta médica es evaluar el estado de salud del
-            paciente. La emisión de un certificado médico depende exclusivamente
-            del criterio profesional y de los hallazgos obtenidos durante la
-            evaluación clínica.
-          </p>
+  <div className="mx-auto mt-5 max-w-4xl text-center">
 
-          <p className="mt-6 text-lg leading-8 text-gray-300">
-            No es posible garantizar la emisión de certificados antes de la
-            consulta, ni emitir documentación sin una valoración médica
-            individual. Cada caso es analizado de forma ética, responsable y
-            conforme a la normativa vigente.
-          </p>
+    <p className="text-sm leading-6 text-white/80">
+      La emisión de un certificado médico depende exclusivamente del criterio
+      profesional y de la evaluación clínica realizada durante la consulta.
+    </p>
 
-        </section>
+    <p className="mt-3 text-sm leading-6 text-white/80">
+      No se emiten certificados sin una valoración médica individual. Cada caso
+      es analizado de forma ética, responsable y conforme a la normativa vigente.
+    </p>
 
+  </div>
+
+</section>
         {/* DIFERENCIALES */}
 
         <section className="mt-24">
