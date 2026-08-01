@@ -65,7 +65,7 @@ export default function CertificadosMedicos() {
 
         </section>
 
-        {/* COMO FUNCIONA */}
+       {/* COMO FUNCIONA */}
 
 <section className="mt-24">
 
@@ -79,17 +79,21 @@ export default function CertificadosMedicos() {
 
   <div className="mt-12 grid gap-6 md:grid-cols-3">
 
-    <div className="rounded-3xl bg-gray-100 p-6 text-center">
+    <div className="rounded-3xl bg-gray-100 p-6">
 
-      <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-black text-lg font-bold text-white">
-        1
+      <div className="flex items-center justify-center gap-3">
+
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-black text-sm font-bold text-white">
+          1
+        </div>
+
+        <h3 className="text-xl font-semibold text-gray-900">
+          Reservá tu consulta
+        </h3>
+
       </div>
 
-      <h3 className="text-xl font-semibold text-gray-900">
-        Reservá tu consulta
-      </h3>
-
-      <p className="mt-3 text-sm leading-6 text-gray-600">
+      <p className="mt-4 text-center text-sm leading-6 text-gray-600">
         Elegí el día y horario que mejor se adapte a vos mediante nuestro
         sistema de turnos online.
       </p>
@@ -97,17 +101,21 @@ export default function CertificadosMedicos() {
     </div>
 
 
-    <div className="rounded-3xl bg-gray-100 p-6 text-center">
+    <div className="rounded-3xl bg-gray-100 p-6">
 
-      <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-black text-lg font-bold text-white">
-        2
+      <div className="flex items-center justify-center gap-3">
+
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-black text-sm font-bold text-white">
+          2
+        </div>
+
+        <h3 className="text-xl font-semibold text-gray-900">
+          Evaluación médica
+        </h3>
+
       </div>
 
-      <h3 className="text-xl font-semibold text-gray-900">
-        Evaluación médica
-      </h3>
-
-      <p className="mt-3 text-sm leading-6 text-gray-600">
+      <p className="mt-4 text-center text-sm leading-6 text-gray-600">
         Durante la consulta se realiza una entrevista clínica completa,
         valorando antecedentes, síntomas y el estado general del paciente.
       </p>
@@ -115,17 +123,21 @@ export default function CertificadosMedicos() {
     </div>
 
 
-    <div className="rounded-3xl bg-gray-100 p-6 text-center">
+    <div className="rounded-3xl bg-gray-100 p-6">
 
-      <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-black text-lg font-bold text-white">
-        3
+      <div className="flex items-center justify-center gap-3">
+
+        <div className="flex h-8 w-8 items-center justify-center rounded-full bg-black text-sm font-bold text-white">
+          3
+        </div>
+
+        <h3 className="text-xl font-semibold text-gray-900">
+          Emisión del certificado
+        </h3>
+
       </div>
 
-      <h3 className="text-xl font-semibold text-gray-900">
-        Emisión del certificado
-      </h3>
-
-      <p className="mt-3 text-sm leading-6 text-gray-600">
+      <p className="mt-4 text-center text-sm leading-6 text-gray-600">
         Cuando la evaluación médica lo justifica, el certificado es emitido
         digitalmente y enviado al paciente.
       </p>
