@@ -53,7 +53,7 @@ export default function SolicitudExamen() {
           <div className="mt-10 grid gap-5 md:grid-cols-3">
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center text-blck">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center text-black">
               Análisis de sangre
             </div>
 
