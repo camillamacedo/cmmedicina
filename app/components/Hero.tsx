@@ -137,21 +137,16 @@ export default function Home() {
           </div>
 
           {/* LOGO */}
-
-          <div className="h-24 w-24 overflow-hidden rounded-full">
+<div className="mx-auto h-44 w-44 overflow-hidden rounded-full shadow-sm">
   <Image
     src="/logo.png"
     alt="CM Medicina"
     width={340}
     height={340}
-    className="h-full w-full object-cover"
+    className="h-full w-full object-cover scale-110"
     priority
   />
 </div>
-          </div>
-
-        </div>
-
       </section>
 
       {/* DIFERENCIALES */}
