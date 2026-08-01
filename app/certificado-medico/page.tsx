@@ -69,7 +69,7 @@ export default function CertificadosMedicos() {
 
 <section className="mt-24">
 
-  <h2 className="text-center text-4xl font-bold">
+  <h2 className="text-center text-4xl font-bold text-black">
     ¿Cómo funciona?
   </h2>
 
