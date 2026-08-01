@@ -242,29 +242,7 @@ export default function CertificadosMedicos() {
   </div>
 
 </section>
-                {/* IMPORTANTE */}
-
-<section className="mt-20 rounded-3xl bg-black px-8 py-8 text-white">
-
-  <h2 className="text-2xl font-bold text-center">
-    Información importante
-  </h2>
-
-  <div className="mx-auto mt-5 max-w-4xl text-center">
-
-    <p className="text-sm leading-6 text-white/80">
-      La emisión de un certificado médico depende exclusivamente del criterio
-      profesional y de la evaluación clínica realizada durante la consulta.
-    </p>
-
-    <p className="mt-3 text-sm leading-6 text-white/80">
-      No se emiten certificados sin una valoración médica individual. Cada caso
-      es analizado de forma ética, responsable y conforme a la normativa vigente.
-    </p>
-
-  </div>
-
-</section>
+                
         {/* DIFERENCIALES */}
 
         <section className="mt-24">
