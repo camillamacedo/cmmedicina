@@ -153,11 +153,11 @@ export default function CertificadosMedicos() {
 
           <div>
 
-            <span className="rounded-full bg-gray-200 px-4 py-2 text-sm font-medium text-white ">
+            <span className="rounded-full bg-gray-200 px-4 py-2 text-sm font-medium text-black ">
               Documentación médica profesional
             </span>
 
-            <h2 className="mt-6 text-4xl font-bold">
+            <h2 className="mt-6 text-4xl font-bold text-black">
               Certificado Médico Digital | CABA y Todo Territorio Nacional 
             </h2>
 
