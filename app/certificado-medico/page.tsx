@@ -153,7 +153,7 @@ export default function CertificadosMedicos() {
 
           <div>
 
-            <span className="rounded-full bg-gray-200 px-4 py-2 text-sm font-medium">
+            <span className="rounded-full bg-gray-200 px-4 py-2 text-sm font-medium text-white ">
               Documentación médica profesional
             </span>
 
