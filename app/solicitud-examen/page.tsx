@@ -6,21 +6,17 @@ export default function SolicitudExamen() {
 
       <div className="mx-auto max-w-6xl px-6 py-20">
 
-
         <Link
           href="/servicios"
           className="text-gray-500 transition hover:text-black"
         >
-          ← Volver a Servicios
+          ← Volver a servicios
         </Link>
-
 
 
         {/* HERO */}
 
-
         <section className="mt-10 text-center">
-
 
           <div className="mx-auto inline-block rounded-full bg-black px-8 py-3">
 
@@ -57,48 +53,51 @@ export default function SolicitudExamen() {
           <div className="mt-10 grid gap-5 md:grid-cols-3">
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
               Análisis de sangre
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
               Estudios de laboratorio
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
               Orina y otros estudios clínicos
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
               Electrocardiograma
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
               Ecografías
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
               Radiografías
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
               Tomografía y Resonancia
             </div>
 
 
-            <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-900">
+            <div className="rounded-3xl bg-gray-100 p-5 text-center">
               Otros estudios complementarios
             </div>
 
 
           </div>
-        {/* CUÁNDO SE SOLICITA */}
+
+
+        </section>
+                {/* CUÁNDO SE SOLICITA */}
 
 
         <section className="mt-20">
@@ -189,5 +188,3 @@ export default function SolicitudExamen() {
     </main>
   );
 }
-
-        </section>
