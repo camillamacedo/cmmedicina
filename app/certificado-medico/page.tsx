@@ -158,7 +158,7 @@ export default function CertificadosMedicos() {
             </span>
 
             <h2 className="mt-6 text-4xl font-bold">
-              Certificados emitidos con respaldo profesional
+              Certificado Médico Digital | CABA y Todo Territorio Nacional 
             </h2>
 
             <p className="mt-8 text-lg leading-8 text-gray-600">
