@@ -312,108 +312,26 @@ export default function CertificadosMedicos() {
 
 </section>
         
-        {/* FAQ */}
+        <details className="group rounded-3xl bg-gray-100 p-5">
 
-<section className="mt-24">
+  <summary className="flex cursor-pointer list-none items-center justify-between text-center text-lg font-semibold text-gray-900">
 
-  <h2 className="text-center text-4xl font-bold text-black">
-    Preguntas frecuentes
-  </h2>
+    <span className="mx-auto">
+      ¿El certificado tiene validez?
+    </span>
 
-  <div className="mx-auto mt-10 max-w-4xl space-y-4">
+    <span className="ml-3 text-xl transition group-open:rotate-45">
+      +
+    </span>
 
-    <details className="group rounded-3xl bg-gray-100 p-5">
+  </summary>
 
-      <summary className="flex cursor-pointer list-none items-center justify-between text-center text-lg font-semibold text-gray-900">
+  <p className="mt-4 text-center text-sm leading-6 text-gray-600">
+    Sí. Los certificados son emitidos por una médica matriculada luego de una
+    evaluación clínica y contienen la información profesional correspondiente.
+  </p>
 
-        <span className="mx-auto">
-          ¿El certificado tiene validez?
-        </span>
-
-        <span className="ml-4 text-xl transition group-open:rotate-45">
-          +
-        </span>
-
-      </summary>
-
-      <p className="mt-4 text-center text-sm leading-6 text-gray-600">
-        Sí. Los certificados son emitidos por una médica matriculada luego de
-        una evaluación clínica y contienen la información profesional
-        correspondiente.
-      </p>
-
-    </details>
-
-
-    <details className="group rounded-3xl bg-gray-100 p-5">
-
-      <summary className="flex cursor-pointer list-none items-center justify-between text-center text-lg font-semibold text-gray-900">
-
-        <span className="mx-auto">
-          ¿Siempre recibiré un certificado?
-        </span>
-
-        <span className="ml-4 text-xl transition group-open:rotate-45">
-          +
-        </span>
-
-      </summary>
-
-      <p className="mt-4 text-center text-sm leading-6 text-gray-600">
-        No. La emisión depende exclusivamente del criterio médico luego de la
-        consulta y de la existencia de una indicación clínica.
-      </p>
-
-    </details>
-
-
-    <details className="group rounded-3xl bg-gray-100 p-5">
-
-      <summary className="flex cursor-pointer list-none items-center justify-between text-center text-lg font-semibold text-gray-900">
-
-        <span className="mx-auto">
-          ¿Cuándo recibiré el certificado?
-        </span>
-
-        <span className="ml-4 text-xl transition group-open:rotate-45">
-          +
-        </span>
-
-      </summary>
-
-      <p className="mt-4 text-center text-sm leading-6 text-gray-600">
-        Cuando corresponde su emisión, generalmente se entrega al finalizar la
-        consulta o dentro de un plazo breve.
-      </p>
-
-    </details>
-
-
-    <details className="group rounded-3xl bg-gray-100 p-5">
-
-      <summary className="flex cursor-pointer list-none items-center justify-between text-center text-lg font-semibold text-gray-900">
-
-        <span className="mx-auto">
-          ¿Necesito una consulta médica?
-        </span>
-
-        <span className="ml-4 text-xl transition group-open:rotate-45">
-          +
-        </span>
-
-      </summary>
-
-      <p className="mt-4 text-center text-sm leading-6 text-gray-600">
-        Sí. Todo certificado requiere una evaluación médica individual. No
-        emitimos certificados sin consulta previa.
-      </p>
-
-    </details>
-
-  </div>
-
-</section>
-
+</details>
         {/* CTA */}
 
         <section className="mt-24 rounded-3xl bg-gray-100 px-10 py-14 text-center">
