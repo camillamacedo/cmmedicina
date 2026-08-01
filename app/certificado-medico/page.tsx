@@ -245,67 +245,72 @@ export default function CertificadosMedicos() {
                 
         {/* DIFERENCIALES */}
 
-        <section className="mt-24">
+<section className="mt-24">
 
-          <h2 className="text-center text-4xl font-bold text-black">
-            ¿Por qué elegir CM Medicina?
-          </h2>
+  <h2 className="text-center text-4xl font-bold text-black">
+    ¿Por qué elegir CM Medicina?
+  </h2>
 
-          <div className="mt-14 grid gap-8 md:grid-cols-2">
+  <div className="mt-12 grid gap-6 md:grid-cols-2">
 
-            <div className="rounded-3xl bg-gray-100 p-8">
-              <h3 className="text-2xl font-semibold">
-                Atención profesional
-              </h3>
+    <div className="rounded-3xl bg-gray-100 p-6 text-center">
 
-              <p className="mt-4 leading-8 text-gray-600">
-                Cada consulta es realizada por una médica matriculada,
-                priorizando una evaluación clínica completa, responsable y
-                personalizada.
-              </p>
-            </div>
+      <h3 className="text-xl font-semibold text-gray-900">
+        Atención profesional
+      </h3>
 
-            <div className="rounded-3xl bg-gray-100 p-8">
-              <h3 className="text-2xl font-semibold">
-                Documentación segura
-              </h3>
+      <p className="mt-3 text-sm leading-6 text-gray-600">
+        Cada consulta es realizada por una médica matriculada, priorizando una
+        evaluación clínica completa, responsable y personalizada.
+      </p>
 
-              <p className="mt-4 leading-8 text-gray-600">
-                Los certificados son confeccionados mediante sistemas que
-                cumplen con los requisitos establecidos para la práctica de la
-                telemedicina en Argentina, garantizando una adecuada
-                documentación del acto médico.
-              </p>
-            </div>
+    </div>
 
-            <div className="rounded-3xl bg-gray-100 p-8">
-              <h3 className="text-2xl font-semibold">
-                Entrega digital
-              </h3>
 
-              <p className="mt-4 leading-8 text-gray-600">
-                Cuando corresponde su emisión, el certificado es enviado en
-                formato digital para que puedas presentarlo de forma rápida y
-                segura.
-              </p>
-            </div>
+    <div className="rounded-3xl bg-gray-100 p-6 text-center">
 
-            <div className="rounded-3xl bg-gray-100 p-8">
-              <h3 className="text-2xl font-semibold">
-                Atención en toda Argentina
-              </h3>
+      <h3 className="text-xl font-semibold text-gray-900">
+        Documentación segura
+      </h3>
 
-              <p className="mt-4 leading-8 text-gray-600">
-                Brindamos consultas médicas online para pacientes de todo el
-                territorio nacional, con la misma seriedad y compromiso que una
-                consulta presencial cuando la telemedicina resulta apropiada.
-              </p>
-            </div>
+      <p className="mt-3 text-sm leading-6 text-gray-600">
+        Los certificados son confeccionados mediante sistemas adecuados para la
+        práctica de la telemedicina en Argentina.
+      </p>
 
-          </div>
+    </div>
 
-        </section>
 
+    <div className="rounded-3xl bg-gray-100 p-6 text-center">
+
+      <h3 className="text-xl font-semibold text-gray-900">
+        Entrega digital
+      </h3>
+
+      <p className="mt-3 text-sm leading-6 text-gray-600">
+        Cuando corresponde su emisión, el certificado es enviado en formato
+        digital para una presentación rápida y segura.
+      </p>
+
+    </div>
+
+
+    <div className="rounded-3xl bg-gray-100 p-6 text-center">
+
+      <h3 className="text-xl font-semibold text-gray-900">
+        Atención en toda Argentina
+      </h3>
+
+      <p className="mt-3 text-sm leading-6 text-gray-600">
+        Brindamos consultas médicas online para pacientes de todo el territorio
+        nacional, con compromiso y calidad profesional.
+      </p>
+
+    </div>
+
+  </div>
+
+</section>
         {/* FAQ */}
 
         <section className="mt-24">
