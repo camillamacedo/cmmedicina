@@ -67,74 +67,74 @@ export default function CertificadosMedicos() {
 
         {/* COMO FUNCIONA */}
 
-        <section className="mt-24">
+<section className="mt-24">
 
-          <h2 className="text-center text-4xl font-bold">
-            ¿Cómo funciona?
-          </h2>
+  <h2 className="text-center text-4xl font-bold">
+    ¿Cómo funciona?
+  </h2>
 
-          <p className="mx-auto mt-5 max-w-3xl text-center text-lg leading-8 text-gray-600">
-            El proceso es simple, seguro y completamente online.
-          </p>
+  <p className="mx-auto mt-5 max-w-3xl text-center text-lg leading-8 text-gray-600">
+    El proceso es simple, seguro y completamente online.
+  </p>
 
-          <div className="mt-14 grid gap-8 md:grid-cols-3">
+  <div className="mt-12 grid gap-6 md:grid-cols-3">
 
-            <div className="rounded-3xl bg-gray-100 p-8">
+    <div className="rounded-3xl bg-gray-100 p-6 text-center">
 
-              <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-black text-xl font-bold text-white">
-                1
-              </div>
+      <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-black text-lg font-bold text-white">
+        1
+      </div>
 
-              <h3 className="text-2xl font-semibold">
-                Reservá tu consulta
-              </h3>
+      <h3 className="text-xl font-semibold text-gray-900">
+        Reservá tu consulta
+      </h3>
 
-              <p className="mt-4 leading-8 text-gray-600">
-                Elegí el día y horario que mejor se adapte a vos mediante
-                nuestro sistema de turnos online.
-              </p>
+      <p className="mt-3 text-sm leading-6 text-gray-600">
+        Elegí el día y horario que mejor se adapte a vos mediante nuestro
+        sistema de turnos online.
+      </p>
 
-            </div>
+    </div>
 
-            <div className="rounded-3xl bg-gray-100 p-8">
 
-              <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-black text-xl font-bold text-white">
-                2
-              </div>
+    <div className="rounded-3xl bg-gray-100 p-6 text-center">
 
-              <h3 className="text-2xl font-semibold">
-                Evaluación médica
-              </h3>
+      <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-black text-lg font-bold text-white">
+        2
+      </div>
 
-              <p className="mt-4 leading-8 text-gray-600">
-                Durante la consulta se realiza una entrevista clínica completa,
-                valorando antecedentes, síntomas y el estado general del
-                paciente.
-              </p>
+      <h3 className="text-xl font-semibold text-gray-900">
+        Evaluación médica
+      </h3>
 
-            </div>
+      <p className="mt-3 text-sm leading-6 text-gray-600">
+        Durante la consulta se realiza una entrevista clínica completa,
+        valorando antecedentes, síntomas y el estado general del paciente.
+      </p>
 
-            <div className="rounded-3xl bg-gray-100 p-8">
+    </div>
 
-              <div className="mb-6 flex h-12 w-12 items-center justify-center rounded-full bg-black text-xl font-bold text-white">
-                3
-              </div>
 
-              <h3 className="text-2xl font-semibold">
-                Emisión del certificado
-              </h3>
+    <div className="rounded-3xl bg-gray-100 p-6 text-center">
 
-              <p className="mt-4 leading-8 text-gray-600">
-                Cuando la evaluación médica lo justifica, el certificado es
-                emitido digitalmente y enviado al paciente.
-              </p>
+      <div className="mx-auto mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-black text-lg font-bold text-white">
+        3
+      </div>
 
-            </div>
+      <h3 className="text-xl font-semibold text-gray-900">
+        Emisión del certificado
+      </h3>
 
-          </div>
+      <p className="mt-3 text-sm leading-6 text-gray-600">
+        Cuando la evaluación médica lo justifica, el certificado es emitido
+        digitalmente y enviado al paciente.
+      </p>
 
-        </section>
+    </div>
 
+  </div>
+
+</section>
         {/* CERTIFICADOS */}
 
         <section className="mt-24 grid gap-14 lg:grid-cols-2 lg:items-center">
