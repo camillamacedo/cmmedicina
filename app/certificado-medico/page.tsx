@@ -207,41 +207,41 @@ export default function CertificadosMedicos() {
 
         {/* TIPOS */}
 
-        <section className="mt-24">
+<section className="mt-24">
 
-          <h2 className="text-4xl font-bold">
-            ¿En qué situaciones puede emitirse un certificado?
-          </h2>
+  <h2 className="text-4xl font-bold text-black">
+    ¿En qué situaciones puede emitirse un certificado?
+  </h2>
 
-          <div className="mt-10 grid gap-6 md:grid-cols-2">
+  <div className="mt-10 grid gap-5 md:grid-cols-2">
 
-            <div className="rounded-2xl bg-gray-100 p-6">
-              ✔ Ausencias laborales.
-            </div>
+    <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+      ✔ Ausencias laborales.
+    </div>
 
-            <div className="rounded-2xl bg-gray-100 p-6">
-              ✔ Justificación escolar o universitaria.
-            </div>
+    <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+      ✔ Justificación escolar o universitaria.
+    </div>
 
-            <div className="rounded-2xl bg-gray-100 p-6">
-              ✔ Reintegro a actividades.
-            </div>
+    <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+      ✔ Reintegro a actividades.
+    </div>
 
-            <div className="rounded-2xl bg-gray-100 p-6">
-              ✔ Constancias de atención médica.
-            </div>
+    <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+      ✔ Constancias de atención médica.
+    </div>
 
-            <div className="rounded-2xl bg-gray-100 p-6">
-              ✔ Seguimiento clínico.
-            </div>
+    <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+      ✔ Seguimiento clínico.
+    </div>
 
-            <div className="rounded-2xl bg-gray-100 p-6">
-              ✔ Otras situaciones evaluadas individualmente.
-            </div>
+    <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
+      ✔ Otras situaciones evaluadas individualmente.
+    </div>
 
-          </div>
+  </div>
 
-        </section>
+</section>
                 {/* IMPORTANTE */}
 
         <section className="mt-24 rounded-3xl bg-black px-10 py-12 text-white">
