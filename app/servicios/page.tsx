@@ -81,11 +81,7 @@ export default function Servicios() {
               text: "Seguimiento de tratamientos habituales.",
               href: "/renovacion-de-receta",
             },
-            {
-              title: "Consultorio",
-              text: "Información sobre atención presencial próximamente.",
-              href: "/consultorio",
-            },
+            
           ].map((service) => (
 
             <Link
