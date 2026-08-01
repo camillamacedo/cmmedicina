@@ -62,11 +62,6 @@ export default function Servicios() {
               href: "/medico-de-cabecera",
             },
             {
-              title: "Consulta Médica",
-              text: "Evaluación clínica, orientación médica y seguimiento personalizado.",
-              href: "/consulta-medica",
-            },
-            {
               title: "Certificados Médicos",
               text: "Evaluación profesional para emisión de certificados médicos.",
               href: "/certificado-medico",
