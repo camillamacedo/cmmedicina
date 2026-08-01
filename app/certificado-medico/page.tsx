@@ -209,7 +209,7 @@ export default function CertificadosMedicos() {
 
 <section className="mt-24">
 
-  <h2 className="text-4xl font-bold text-black">
+  <h2 className="text-center text-4xl font-bold text-black">
     ¿En qué situaciones puede emitirse un certificado?
   </h2>
 
