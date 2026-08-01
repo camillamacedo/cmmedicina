@@ -213,7 +213,7 @@ export default function CertificadosMedicos() {
     ¿En qué situaciones puede emitirse un certificado?
   </h2>
 
-  <div className="mt-10 grid gap-5 md:grid-cols-2">
+  <div className="mt-10 grid gap-5 md:grid-cols-3">
 
     <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
       ✔ Ausencias laborales.
