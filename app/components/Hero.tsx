@@ -142,7 +142,7 @@ export default function Home() {
           <div className="order-1 mx-auto lg:order-2">
             <div className="h-64 w-64 overflow-hidden rounded-full shadow-sm">
               <Image
-                src="/logo.png"
+                src="/logo1.jpg"
                 alt="CM Medicina"
                 width={340}
                 height={340}
