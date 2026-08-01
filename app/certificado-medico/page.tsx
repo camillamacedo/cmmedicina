@@ -236,7 +236,7 @@ export default function CertificadosMedicos() {
     </div>
 
     <div className="rounded-3xl bg-gray-100 p-5 text-center text-gray-700">
-      ✔ Otras situaciones evaluadas individualmente.
+      ✔ Otras situaciones.
     </div>
 
   </div>
