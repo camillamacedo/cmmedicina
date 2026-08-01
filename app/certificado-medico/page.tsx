@@ -320,7 +320,8 @@ export default function CertificadosMedicos() {
     Preguntas frecuentes
   </h2>
 
-  <div className="mx-auto mt-10 max-w-4xl space-y-4">
+  <div className="mt-10 grid gap-5 md:grid-cols-2">
+
 
     <details className="group rounded-3xl bg-gray-100 p-5">
 
@@ -330,7 +331,7 @@ export default function CertificadosMedicos() {
           ¿El certificado tiene validez?
         </span>
 
-        <span className="ml-4 text-xl transition group-open:rotate-45">
+        <span className="ml-3 text-xl transition group-open:rotate-45">
           +
         </span>
 
@@ -353,7 +354,7 @@ export default function CertificadosMedicos() {
           ¿Siempre recibiré un certificado?
         </span>
 
-        <span className="ml-4 text-xl transition group-open:rotate-45">
+        <span className="ml-3 text-xl transition group-open:rotate-45">
           +
         </span>
 
@@ -375,7 +376,7 @@ export default function CertificadosMedicos() {
           ¿Cuándo recibiré el certificado?
         </span>
 
-        <span className="ml-4 text-xl transition group-open:rotate-45">
+        <span className="ml-3 text-xl transition group-open:rotate-45">
           +
         </span>
 
@@ -397,7 +398,7 @@ export default function CertificadosMedicos() {
           ¿Necesito una consulta médica?
         </span>
 
-        <span className="ml-4 text-xl transition group-open:rotate-45">
+        <span className="ml-3 text-xl transition group-open:rotate-45">
           +
         </span>
 
@@ -409,6 +410,7 @@ export default function CertificadosMedicos() {
       </p>
 
     </details>
+
 
   </div>
 
