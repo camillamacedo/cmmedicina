@@ -160,7 +160,7 @@ export default function Home() {
             >
 
               <Image
-  src="/logo.png"
+  src="/logo1.jpg"
   alt="CM Medicina"
   width={340}
   height={340}
