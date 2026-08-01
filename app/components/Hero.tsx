@@ -160,13 +160,13 @@ export default function Home() {
             >
 
               <Image
-                src="/logo.png"
-                alt="CM Medicina"
-                width={340}
-                height={340}
-                className="h-[72%] w-[72%] object-contain"
-                priority
-              />
+  src="/logo.png"
+  alt="CM Medicina"
+  width={340}
+  height={340}
+  className="h-[90%] w-[90%] object-contain"
+  priority
+/>
 
             </div>
 
