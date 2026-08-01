@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "consulta médica online",
     "médica online",
     "CM Medicina",
+    "medico en buenos aires",
+    "jusfitivo laboral",
+    "falte al laburo",
   ],
 
   alternates: {
