@@ -23,7 +23,7 @@ export default function Navbar() {
         >
 
           <Image
-            src="/logo.png"
+            src="/logo1.jpg"
             alt="CM Medicina"
             width={50}
             height={50}
