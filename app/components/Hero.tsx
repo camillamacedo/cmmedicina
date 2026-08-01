@@ -138,38 +138,16 @@ export default function Home() {
 
           {/* LOGO */}
 
-          <div className="order-1 flex justify-center lg:order-2">
-
-            <div
-              className="
-                flex
-                h-[220px]
-                w-[220px]
-                items-center
-                justify-center
-                rounded-full
-                border
-                border-neutral-200
-                bg-white
-                shadow-[0_20px_60px_rgba(0,0,0,.05)]
-                sm:h-[260px]
-                sm:w-[260px]
-                lg:h-[340px]
-                lg:w-[340px]
-              "
-            >
-
-              <Image
-  src="/logo1.jpg"
-  alt="CM Medicina"
-  width={340}
-  height={340}
-  className="h-[90%] w-[90%] object-contain"
-  priority
-/>
-
-            </div>
-
+          <div className="h-24 w-24 overflow-hidden rounded-full">
+  <Image
+    src="/logo.png"
+    alt="CM Medicina"
+    width={340}
+    height={340}
+    className="h-full w-full object-cover"
+    priority
+  />
+</div>
           </div>
 
         </div>
